@@ -1,0 +1,90 @@
+﻿/* Content/Site.css */
+
+/* --- Paleta de Colores y Tipografía --- */
+:root {
+    --primary-color: #008080; /* Teal oscuro, profesional y tecnológico */
+    --secondary-color: #F0F8FF; /* Azul muy claro para fondos */
+    --dark-text: #333333; /* Gris oscuro para texto principal */
+    --light-text: #6c757d; /* Gris claro para texto secundario */
+    --background-color: #FFFFFF; /* Fondo principal blanco */
+    --accent-color: #6C757D; /* Gris medio del logo para acentos */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--dark-text);
+    padding-top: 70px; /* Espacio para el header fijo */
+}
+
+/* --- Encabezado y Navegación --- */
+.navbar {
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: var(--light-text);
+    transition: color 0.3s ease;
+}
+
+    .nav-link:hover, .nav-link:focus {
+        color: var(--primary-color);
+    }
+
+.btn-login {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 20px;
+    padding: 8px 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+    .btn-login:hover {
+        background-color: #006666; /* Un tono más oscuro de teal */
+        border-color: #006666;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+/* --- Contenido Principal --- */
+main {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    min-height: calc(100vh - 130px); /* Asegura que el footer quede abajo */
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.7;
+    color: var(--light-text);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* --- Pie de Página --- */
+.footer {
+    border-top: 1px solid #eee;
+}
+
+/* --- Estilos para Páginas Específicas --- */
+.page-header {
+    background-color: var(--secondary-color);
+    padding: 60px 0;
+    margin-bottom: 40px;
+    text-align: center;
+}

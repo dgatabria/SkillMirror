@@ -1,0 +1,11 @@
+C:\Users\dgata\source\repos\SkillMirror\MPP\bin\Debug\MPP.dll
+C:\Users\dgata\source\repos\SkillMirror\MPP\bin\Debug\MPP.pdb
+C:\Users\dgata\source\repos\SkillMirror\MPP\bin\Debug\BE.dll
+C:\Users\dgata\source\repos\SkillMirror\MPP\bin\Debug\DAL.dll
+C:\Users\dgata\source\repos\SkillMirror\MPP\bin\Debug\BE.pdb
+C:\Users\dgata\source\repos\SkillMirror\MPP\bin\Debug\DAL.pdb
+C:\Users\dgata\source\repos\SkillMirror\MPP\obj\Debug\MPP.csproj.AssemblyReference.cache
+C:\Users\dgata\source\repos\SkillMirror\MPP\obj\Debug\MPP.csproj.CoreCompileInputs.cache
+C:\Users\dgata\source\repos\SkillMirror\MPP\obj\Debug\MPP.csproj.Up2Date
+C:\Users\dgata\source\repos\SkillMirror\MPP\obj\Debug\MPP.dll
+C:\Users\dgata\source\repos\SkillMirror\MPP\obj\Debug\MPP.pdb

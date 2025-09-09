@@ -1,0 +1,137 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="SkillMirror.AdminMaster" %>
+<%@ Import Namespace="System.Web.Optimization" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Consola SkillMirror</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <%-- Estilos para la consola (sin cambios) --%>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .sidebar {
+            background-color: #343a40;
+            padding: 1rem;
+            min-height: 100vh;
+        }
+        .sidebar .nav-link {
+            color: #adb5bd;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            transition: all 0.2s ease-in-out;
+        }
+        .sidebar .nav-link.active, .sidebar .nav-link:hover {
+            color: #ffffff;
+            background-color: #495057;
+        }
+        .top-navbar {
+            background-color: #ffffff;
+            border-bottom: 1px solid #dee2e6;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <asp:ScriptManager runat="server">
+        <Scripts>
+            <%-- Estas son las librerías de Microsoft que hacen funcionar los postbacks --%>
+            <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+            <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+            <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+            <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+            <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+            <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+            <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+            <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+            <asp:ScriptReference Name="WebFormsBundle" />
+        </Scripts>
+    </asp:ScriptManager>
+
+    <nav class="navbar top-navbar fixed-top shadow-sm">
+        <div class="container-fluid">
+            <a id="headerTitle" runat="server" class="navbar-brand" href="~/Consola.aspx">
+                <img src="~/img/skillmirror150px.png" alt="SkillMirror Logo" style="height: 35px;" />
+                Consola de Administración
+            </a>
+            
+            <ul class="navbar-nav ms-auto d-flex flex-row align-items-center">
+                <li class="nav-item dropdown mx-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarLangDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <asp:Literal ID="litIdioma" runat="server" Text="Idioma"></asp:Literal>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarLangDropdown">
+                        <asp:Repeater ID="RepeaterIdiomas" runat="server">
+                            <ItemTemplate>
+                                <li>
+                                    <%-- Generamos un link directo con el parámetro langid --%>
+                                    <a class="dropdown-item" href="?langid=<%# Eval("Codigo") %>">
+                                        <%# Eval("Nombre") %>
+                                    </a>
+                                </li>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </ul>
+                </li>
+
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <asp:Label ID="lblUserName" runat="server" Text="Usuario"></asp:Label>
+                    </a>
+                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a id="linkMiPerfil" runat="server" class="dropdown-item" href="~/MiPerfil.aspx">Mi Perfil</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <asp:LinkButton ID="btnLogout" runat="server" CssClass="dropdown-item" OnClick="BtnLogout_Click">Cerrar Sesión</asp:LinkButton>
+                        </li>
+                    </ul>
+                 </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar collapse" style="padding-top: 60px;">
+                 <div class="position-sticky">
+                    <%-- El Repeater se mantiene igual, su contenido se traducirá en el code-behind --%>
+                    <asp:Repeater ID="rptMenu" runat="server">
+                         <HeaderTemplate>
+                            <ul class="nav flex-column nav-pills">
+                        </HeaderTemplate>
+                         <ItemTemplate>
+                            <li class="nav-item">
+                                <a class='<%# Eval("CssClass") %>' href='<%# Page.ResolveUrl(Eval("Url").ToString()) %>'>
+                                 <%# Eval("Texto") %>
+                                </a>
+                            </li>
+                         </ItemTemplate>
+                        <FooterTemplate>
+                            </ul>
+                         </FooterTemplate>
+                    </asp:Repeater>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4" style="padding-top: 80px;">
+                 <asp:ContentPlaceHolder ID="AdminContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </form>
+</body>
+</html>
