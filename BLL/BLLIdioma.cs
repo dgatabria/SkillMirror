@@ -2,6 +2,7 @@
 using MPP;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,21 @@ namespace BLL
             oMPPIdioma = new MPPIdioma();
         }
 
+        public string ExportarAXml(int idiomaId)
+        {
+            return oMPPIdioma.ExportarAXml(idiomaId);
+        }
+
+        public void ImportarDesdeXml(Stream xmlStream)
+        {
+            // Aquí podrías agregar validaciones de negocio antes de importar,
+            // como verificar que el archivo no esté vacío.
+            if (xmlStream == null || xmlStream.Length == 0)
+            {
+                throw new Exception("El archivo XML está vacío o no es válido.");
+            }
+            oMPPIdioma.ImportarDesdeXml(xmlStream);
+        }
         /// <summary>
         /// Llama a la capa MPP para obtener un idioma específico con sus traducciones.
         /// </summary>

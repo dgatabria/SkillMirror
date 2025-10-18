@@ -33,7 +33,8 @@ namespace BE
         public string TokenActivacion {  get; set; }
         public byte[] PasswordSalt { get; set; }
         public bool Eliminado { get; set; }
-
+        public bool SuscritoNewsletter { get; set; }
+        public bool SuscritoEncuestas { get; set; }
 
         public override string ToString()
         {

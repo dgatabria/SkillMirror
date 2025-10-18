@@ -30,7 +30,7 @@ namespace MPP
             bd = new Acceso();
             string Query = "doLogin";
             Hashtable ht = new Hashtable();
-            ht.Add("@username", usuario.username);
+            ht.Add("@username", usuario.Email);
             ht.Add("@hashedPassword", pw);
             int i = bd.LeerSPRT(Query, ht);
             return i;
@@ -112,11 +112,15 @@ namespace MPP
         }
         public bool CambiarPassword(BEUsuario usuario, string passwordActual)
         {
+            MPPLogin mPPLogin = new MPPLogin();
+            BEUsuario bEUsuario = ListarObjeto(usuario);
+
+            if (mPPLogin.doLogin(bEUsuario,passwordActual) != 0) { return false; }
             var ht = new Hashtable();
             ht.Add("@ID_Usuario", usuario.Codigo);
             ht.Add("@PasswordActual", passwordActual);
             ht.Add("@PasswordNueva", usuario.Password); // La nueva contraseña ya viene en el objeto
-
+            Acceso bd = new Acceso();
             // Usamos LeerSP para obtener la tabla de resultados del SP
             DataTable dt = bd.LeerSP("sp_CambiarPasswordUsuario", ht);
 
@@ -156,7 +160,8 @@ namespace MPP
             ht.Add("@Salt", Objeto.PasswordSalt);
             ht.Add("@TokenActivacion", Objeto.TokenActivacion == null ? DBNull.Value : (Object)Objeto.TokenActivacion);
             ht.Add("@TokenRecupero", Objeto.TokenRecupero == null ? DBNull.Value : (Object)Objeto.TokenRecupero);
-
+            ht.Add("@SuscritoNewsletter", Objeto.SuscritoNewsletter );
+            ht.Add("@SuscritoEncuestas", Objeto.SuscritoEncuestas);
             bd = new Acceso();
             int a = bd.LeerSPRT(query, ht);
             if (a == 0) { return true; }
@@ -243,13 +248,60 @@ namespace MPP
             usuario.PrimerLogin = Convert.ToBoolean(row["PrimerLogin"]);
             usuario.TokenActivacion = row["TokenActivacion"] == DBNull.Value ? null : row["TokenActivacion"].ToString();
             usuario.TokenRecupero = row["TokenRecuperacion"] == DBNull.Value ? null : row["TokenRecuperacion"].ToString();
+            usuario.SuscritoNewsletter = Convert.ToBoolean(row["SuscritoNewsletter"]);
+            usuario.SuscritoEncuestas = Convert.ToBoolean(row["SuscribirEncuestas"]);
             usuario.PasswordSalt = (byte[])row["Salt"];
 
             return usuario;
         }
 
 
+        public bool VerificarPassword(BEUsuario usuario, string hashedPassword)
+        {
+            Acceso oAcceso = new Acceso();
+            var ht = new Hashtable();
+            ht.Add("@Email", usuario.Email);
+            ht.Add("@HashedPassword", hashedPassword);
 
+            DataTable dt = oAcceso.LeerSP("sp_VerificarPassword", ht);
+
+            if (dt.Rows.Count > 0)
+            {
+                return Convert.ToInt32(dt.Rows[0]["Match"]) == 1;
+            }
+            return false;
+        }
+        public List<BEUsuario> ListarSuscritosEncuestas()
+        {
+            Acceso oAcceso = new Acceso();
+            var lista = new List<BEUsuario>();
+            DataTable dt = oAcceso.LeerSP("sp_ListarUsuariosSuscritosEncuestas", null);
+
+            foreach (DataRow dr in dt.Rows)
+            {
+                var usuario = new BEUsuario
+                {
+                    Codigo = Convert.ToInt32(dr["ID"]),
+                    Email = dr["Email"].ToString(),
+                    Nombre = dr["Nombre"].ToString()
+                };
+                lista.Add(usuario);
+            }
+            return lista;
+        }
+        public bool HacerAdministrador(BEUsuario usuario)
+        {
+            bd = new Acceso();
+            string query = "sp_AsignarRolAdminAUsuario";
+            var ht = new Hashtable();
+            ht.Add("@ID_Usuario", usuario.Codigo);
+
+            // LeerSPRT ejecuta el SP y devuelve su valor de RETURN.
+            // El SP devuelve 0 si fue exitoso.
+            int resultado = bd.LeerSPRT(query, ht);
+
+            return resultado == 0;
+        }
         public BEUsuario ListarObjeto(BEUsuario oUsuarioFiltro)
         {
             bd = new Acceso();
@@ -309,6 +361,8 @@ namespace MPP
 
                 // El campo Salt es VARBINARY, se debe castear a byte[]
                 usuarioEncontrado.PasswordSalt = (byte[])row["Salt"];
+                usuarioEncontrado.SuscritoNewsletter = Convert.ToBoolean(row["SuscritoNewsletter"]);
+                usuarioEncontrado.SuscritoEncuestas = Convert.ToBoolean(row["SuscribirEncuestas"]);
 
                 return usuarioEncontrado;
             }
@@ -326,6 +380,23 @@ namespace MPP
             usuario.TokenRecupero = token;
             Guardar(usuario);
             return token;
+        }
+        public List<BEUsuario> ListarSuscritos()
+        {
+            Acceso oAcceso = new Acceso();
+            var lista = new List<BEUsuario>();
+            DataTable dt = oAcceso.LeerSP("sp_ListarUsuariosSuscritos", null);
+
+            foreach (DataRow dr in dt.Rows)
+            {
+                var usuario = new BEUsuario
+                {
+                    Email = dr["Email"].ToString(),
+                    Nombre = dr["Nombre"].ToString()
+                };
+                lista.Add(usuario);
+            }
+            return lista;
         }
     }
 }

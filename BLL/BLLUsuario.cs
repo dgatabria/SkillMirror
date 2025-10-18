@@ -17,7 +17,33 @@ namespace BLL
             usuariomp = new MPPUsuario();
         }
 
+        public bool VerificarPassword(BEUsuario usuario, string passwordEnClaro)
+        {
+            // 1. Instanciamos tu clase de criptografía
+            MPPCrypto mppCrypto = new MPPCrypto();
 
+            // 2. Obtenemos la "sal" (salt) específica de este usuario desde la BD
+            byte[] salt = mppCrypto.TraerSalt(usuario.Email);
+
+            // Si no se encuentra el usuario, no hay nada que verificar
+            if (salt == null)
+            {
+                return false;
+            }
+
+            // 3. Hasheamos la contraseña que el usuario acaba de ingresar en el modal, usando su sal
+            string hashedPassword = mppCrypto.HashPassword(passwordEnClaro, salt);
+
+            // 4. Le pasamos el usuario y el hash recién calculado al método de la MPP que llama al SP
+            //    El SP en la base de datos hará la comparación final de forma segura.
+            return usuariomp.VerificarPassword(usuario, hashedPassword);
+        }
+        public bool HacerAdministrador(BEUsuario usuario)
+        {
+            // Podrían ir reglas de negocio aquí, por ejemplo:
+            // "if(usuario.Empresa.PlanContratado.Codigo < 3) return false;"
+            return usuariomp.HacerAdministrador(usuario);
+        }
         public bool Guardar(BEUsuario Objeto)
         {
             return usuariomp.Guardar(Objeto);
@@ -47,7 +73,11 @@ namespace BLL
             return usuariomp.FijarTokenResetPassword(Objeto);   
         }
 
-
+        public List<BEUsuario> ListarSuscritosEncuestas()
+        {
+            // Simplemente llama al método correspondiente de la capa de mapeo
+            return usuariomp.ListarSuscritosEncuestas();
+        }
         public bool CambiarPassword(BEUsuario usuario, string passwordActual)
         {
 
@@ -56,6 +86,10 @@ namespace BLL
                 throw new Exception("La nueva contraseña debe tener al menos 8 caracteres.");
             }
             return usuariomp.CambiarPassword(usuario, passwordActual);
+        }
+        public List<BEUsuario> ListarSuscritos()
+        {
+            return usuariomp.ListarSuscritos();
         }
         public List<BEUsuario> ListarTodos()
         {

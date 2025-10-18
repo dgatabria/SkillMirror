@@ -66,6 +66,10 @@
                 Consola de Administración
             </a>
             
+            <div class="d-flex me-3">
+                <asp:TextBox ID="txtBusquedaGlobal" runat="server" CssClass="form-control me-2"></asp:TextBox>
+                <asp:Button ID="btnBusquedaGlobal" runat="server" OnClick="btnBusquedaGlobal_Click" CssClass="btn btn-outline-secondary" />
+            </div>
             <ul class="navbar-nav ms-auto d-flex flex-row align-items-center">
                 <li class="nav-item dropdown mx-3">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarLangDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -91,6 +95,7 @@
                     </a>
                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                         <li><a id="linkMiPerfil" runat="server" class="dropdown-item" href="~/MiPerfil.aspx">Mi Perfil</a></li>
+                         <li><a id="linkMisMensajes" runat="server" class="dropdown-item" href="~/MisMensajes.aspx">Mis Mensajes</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li>
                             <asp:LinkButton ID="btnLogout" runat="server" CssClass="dropdown-item" OnClick="BtnLogout_Click">Cerrar Sesión</asp:LinkButton>
@@ -125,7 +130,7 @@
             </nav>
 
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4" style="padding-top: 80px;">
-                 <asp:ContentPlaceHolder ID="AdminContent" runat="server">
+                 <asp:ContentPlaceHolder ID="MainContent" runat="server">
                 </asp:ContentPlaceHolder>
             </main>
         </div>

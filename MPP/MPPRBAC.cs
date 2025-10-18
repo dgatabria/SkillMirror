@@ -67,6 +67,23 @@ namespace MPP
             return bd.EscribirSP(query, ht) == 1;
         }
 
+        public bool UsuarioTienePermiso(BEUsuario usuario, string nombrePermiso)
+        {
+            Acceso oAcceso = new Acceso();
+            var ht = new Hashtable();
+            ht.Add("@ID_Usuario", usuario.Codigo);
+            ht.Add("@NombrePermiso", nombrePermiso);
+
+            DataTable dt = oAcceso.LeerSP("sp_UsuarioTienePermiso", ht);
+
+            if (dt != null && dt.Rows.Count > 0)
+            {
+                // El SP devuelve una tabla con una columna "TienePermiso" que contiene 1 o 0.
+                return Convert.ToInt32(dt.Rows[0]["TienePermiso"]) == 1;
+            }
+
+            return false;
+        }
         // --- Métodos para Permisos ---
         public List<BEPermiso> ListarPermisos()
         {

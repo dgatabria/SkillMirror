@@ -7,73 +7,43 @@
     </div>
 
     <div class="container">
-        <div class="row text-center">
-            <%-- Plan BASIC --%>
-            <div class="col-lg-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-header bg-light">
-                        <h4 id="basicCardTitle" runat="server" class="my-0 fw-normal">SkillMirror BASIC</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$29.000<small id="basicPriceTerm" runat="server" class="text-muted fw-light">/mes</small></h1>
-                        <p id="basicCardText" runat="server" class="mt-3 mb-4">
-                            Ideal para empresas con procesos de selección puntuales.
-                        </p>
-                        <div class="form-check d-inline-block">
-                            <input class="form-check-input plan-checkbox" type="checkbox" value="basic" id="chkBasic">
-                            <label class="form-check-label" for="chkBasic">
-                                <asp:Literal ID="litBasicCompare" runat="server">Comparar Plan</asp:Literal>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="row text-center justify-content-center">
+            <asp:Repeater ID="rptPlanes" runat="server" OnItemDataBound="RptPlanes_ItemDataBound" OnItemCommand="RptPlanes_ItemCommand">
+                <ItemTemplate>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div id="cardHeader" runat="server" class="card-header">
+                                <h4 id="cardTitle" runat="server" class="my-0 fw-normal"></h4>
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h1 class="card-title pricing-card-title">
+                                    <asp:Literal ID="litPrecio" runat="server"></asp:Literal>
+                                </h1>
+                                <p id="cardText" runat="server" class="mt-3 mb-4">
+                                </p>
+                                
+                                <%-- Checkbox para la tabla comparativa --%>
+                                <div class="form-check d-inline-block mt-auto">
+                                    <input class="form-check-input plan-checkbox" type="checkbox" value="<%# Eval("Nombre").ToString().ToLower() %>" id="chk_<%# Eval("Nombre") %>" checked>
+                                    <label class="form-check-label" for="chk_<%# Eval("Nombre") %>">
+                                        <asp:Literal ID="litComparar" runat="server">Comparar Plan</asp:Literal>
+                                    </label>
+                                </div>
 
-            <%-- Plan PRO --%>
-            <div class="col-lg-4 mb-4">
-                <div class="card h-100 shadow">
-                    <div class="card-header text-white" style="background-color: var(--primary-color);">
-                        <h4 id="proCardTitle" runat="server" class="my-0 fw-normal">SkillMirror PRO</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$89.000<small id="proPriceTerm" runat="server" class="text-muted fw-light">/mes</small></h1>
-                        <p id="proCardText" runat="server" class="mt-3 mb-4">
-                            La solución completa para empresas con reclutamiento continuo.
-                        </p>
-                        <div class="form-check d-inline-block">
-                            <input class="form-check-input plan-checkbox" type="checkbox" value="pro" id="chkPro" checked>
-                            <label class="form-check-label" for="chkPro">
-                                <asp:Literal ID="litProCompare" runat="server">Comparar Plan</asp:Literal>
-                            </label>
+                                <%-- Botón de suscribir (solo visible en modo contratación) --%>
+                                <asp:Panel ID="pnlBotonContratar" runat="server" Visible="false" CssClass="mt-3">
+                                    <asp:Button ID="btnSuscribir" runat="server" CssClass="btn btn-lg btn-success w-100" 
+                                        CommandName="Suscribir" CommandArgument='<%# Eval("Codigo") %>' />
+                                </asp:Panel>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <%-- Plan ENTERPRISE --%>
-            <div class="col-lg-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-header bg-light">
-                        <h4 id="enterpriseCardTitle" runat="server" class="my-0 fw-normal">SkillMirror ENTERPRISE</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 id="enterprisePrice" runat="server" class="card-title pricing-card-title">A convenir</h1>
-                        <p id="enterpriseCardText" runat="server" class="mt-3 mb-4">
-                            Un plan a medida para grandes corporaciones con necesidades específicas.
-                        </p>
-                        <div class="form-check d-inline-block">
-                            <input class="form-check-input plan-checkbox" type="checkbox" value="enterprise" id="chkEnterprise" checked>
-                            <label class="form-check-label" for="chkEnterprise">
-                                <asp:Literal ID="litEnterpriseCompare" runat="server">Comparar Plan</asp:Literal>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                </ItemTemplate>
+            </asp:Repeater>
         </div>
 
-        <%-- Tabla Comparativa --%>
-        <div id="comparison-section" class="mt-5" style="display: none;">
+        <%-- Tabla Comparativa (Reintegrada) --%>
+        <div id="comparison-section" class="mt-5">
             <h2 id="comparisonTitle" runat="server" class="text-center mb-4">Tabla Comparativa</h2>
             <div class="table-responsive">
                 <table class="table table-striped table-hover text-center">
@@ -84,9 +54,8 @@
         </div>
     </div>
 
-    <%-- Script que ahora recibe los datos traducidos desde el code-behind --%>
+    <%-- Script de JavaScript (Reintegrado y funcional) --%>
     <script type="text/javascript">
-        // Los datos ahora se inyectan desde el servidor
         const planData = <%= _jsonPlanData %>;
         const features = <%= _jsonFeatures %>;
 
@@ -108,21 +77,23 @@
 
             section.style.display = 'block';
 
-            // Usamos la etiqueta 'label' traducida para la primera columna
             let headerHTML = `<tr><th class="text-start" style="width: 25%;">${features[0].headerLabel}</th>`;
             selectedPlans.forEach(planId => {
-                headerHTML += `<th>${planData[planId].name}</th>`;
+                if (planData[planId]) {
+                    headerHTML += `<th>${planData[planId].name}</th>`;
+                }
             });
             headerHTML += '</tr>';
             thead.innerHTML = headerHTML;
 
             let bodyHTML = '';
             features.forEach(feature => {
-                // Iteramos sobre las features traducidas (excluyendo la primera que es el header)
                 if (feature.key !== 'header') {
                     bodyHTML += `<tr><td class="text-start fw-bold">${feature.label}</td>`;
                     selectedPlans.forEach(planId => {
-                        bodyHTML += `<td>${planData[planId][feature.key]}</td>`;
+                        if (planData[planId]) {
+                            bodyHTML += `<td>${planData[planId][feature.key]}</td>`;
+                        }
                     });
                     bodyHTML += '</tr>';
                 }
@@ -134,6 +105,7 @@
             checkbox.addEventListener('change', drawComparisonTable);
         });
 
-        document.addEventListener('DOMContentLoaded', drawComparisonTable);
+        // Asegurarse de que la tabla se dibuje después de que la página cargue completamente
+        document.addEventListener('load', drawComparisonTable);
     </script>
 </asp:Content>

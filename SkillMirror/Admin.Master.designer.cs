@@ -33,6 +33,24 @@ namespace SkillMirror
         protected global::System.Web.UI.HtmlControls.HtmlAnchor headerTitle;
 
         /// <summary>
+        /// txtBusquedaGlobal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtBusquedaGlobal;
+
+        /// <summary>
+        /// btnBusquedaGlobal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnBusquedaGlobal;
+
+        /// <summary>
         /// litIdioma control.
         /// </summary>
         /// <remarks>
@@ -69,6 +87,15 @@ namespace SkillMirror
         protected global::System.Web.UI.HtmlControls.HtmlAnchor linkMiPerfil;
 
         /// <summary>
+        /// linkMisMensajes control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkMisMensajes;
+
+        /// <summary>
         /// btnLogout control.
         /// </summary>
         /// <remarks>
@@ -87,12 +114,12 @@ namespace SkillMirror
         protected global::System.Web.UI.WebControls.Repeater rptMenu;
 
         /// <summary>
-        /// AdminContent control.
+        /// MainContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder AdminContent;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
     }
 }

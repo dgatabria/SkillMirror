@@ -27,6 +27,10 @@ namespace BLL
         {
             return oMPPResena.Eliminar(resenaId);
         }
+        public BERankingEstadisticas ObtenerEstadisticas()
+        {
+            return oMPPResena.ObtenerEstadisticas();
+        }
         public bool Guardar(BEResena resena)
         {
 

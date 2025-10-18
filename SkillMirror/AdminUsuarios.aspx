@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Administración de Usuarios" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="AdminUsuarios.aspx.cs" Inherits="SkillMirror.AdminUsuarios" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="AdminContent" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 id="headerTitle" runat="server" class="h2">Administración de Usuarios</h1>
         <div class="btn-toolbar mb-2 mb-md-0">

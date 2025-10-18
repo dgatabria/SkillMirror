@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿using BE;
+using DAL;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
-using BE;
-using DAL;
 
 namespace MPP
 {
@@ -10,19 +11,34 @@ namespace MPP
     {
         private Acceso bd;
 
-        public bool Guardar(BEEmpresa empresa)
+        public int Guardar(BEEmpresa empresa)
         {
             bd = new Acceso();
-            string query = "sp_GuardarEmpresa";
+            string query = "sp_GuardarEmpresa_ConRetornoID";
             Hashtable ht = new Hashtable();
+            // El SP manejará si el ID es 0 para un alta.
             ht.Add("@ID", empresa.Codigo);
             ht.Add("@Nombre", empresa.Nombre);
             ht.Add("@Telefono", empresa.Telefono);
             ht.Add("@Domicilio", empresa.Domicilio);
-            ht.Add("@MedioDePago", empresa.MedioDePago);
             ht.Add("@CUIT", empresa.CUIT);
 
-            return bd.EscribirSP(query, ht) == 1; 
+            // LeerSP devuelve una tabla, y nuestro nuevo SP devuelve una tabla con una fila y una columna "ID".
+            DataTable dt = bd.LeerSP(query, ht);
+            if (dt != null && dt.Rows.Count > 0)
+            {
+                return Convert.ToInt32(dt.Rows[0]["ID"]);
+            }
+            return -1; // Indica un error
+        }
+        public bool ActualizarPlan(int idEmpresa, int idPlan)
+        {
+            bd = new Acceso();
+            string query = "sp_ActualizarPlanEmpresa";
+            Hashtable ht = new Hashtable();
+            ht.Add("@ID_Empresa", idEmpresa);
+            ht.Add("@ID_NivelServicio", idPlan);
+            return bd.EscribirSP(query, ht) > 0;
         }
 
         public bool Baja(BEEmpresa empresa)
@@ -53,32 +69,41 @@ namespace MPP
         }
 
 
-        public BEEmpresa ListarObjeto(BEEmpresa empresaFiltro)
+        public BEEmpresa ListarObjeto(BEEmpresa empresa)
         {
-            bd = new Acceso();
-            string query = "sp_ListarEmpresaPorID";
-            Hashtable ht = new Hashtable();
+            var ht = new Hashtable();
+            ht.Add("@ID", empresa.Codigo);
+            Acceso oAcceso = new Acceso();
+            // Ahora llamamos al Stored Procedure actualizado, que ya nos trae toda la información.
+            DataTable dt = oAcceso.LeerSP("sp_ListarEmpresaPorID", ht);
 
-            if (empresaFiltro.Codigo > 0)
+            if (dt.Rows.Count > 0)
             {
-                ht.Add("@ID", empresaFiltro.Codigo);
-            }
-            else
-            {
-                return null; // No se puede buscar sin un ID
-            }
+                DataRow dr = dt.Rows[0];
+                var emp = new BEEmpresa
+                {
+                    Codigo = Convert.ToInt32(dr["ID"]),
+                    Nombre = dr["Nombre"].ToString(),
+                    CUIT = dr["CUIT"].ToString(),
+                    Telefono = dr["Telefono"].ToString(),
+                    Domicilio = dr["Domicilio"].ToString(),
+                    MedioDePago = dr["MedioDePago"].ToString()
+                };
 
-            DataTable tabla = bd.LeerSP(query, ht);
-
-            if (tabla != null && tabla.Rows.Count > 0)
-            {
-                // Si encontramos un resultado, lo mapeamos usando la función que ya tenemos
-                return Mapear(tabla.Rows[0]);
+                // Verificamos si la empresa tiene un plan asignado.
+                if (dr["NivelServicio"] != DBNull.Value)
+                {
+                    emp.PlanContratado = new BENivelServicio
+                    {
+                        Codigo = Convert.ToInt32(dr["NivelServicio"]),
+                        Nombre = dr["NivelServicioNombre"].ToString(),
+                        Gratis = Convert.ToBoolean(dr["Gratis"]),
+                        CostoMensual = Convert.ToDouble(dr["CostoMensual"])
+                    };
+                }
+                return emp;
             }
-            else
-            {
-                return null;
-            }
+            return null;
         }
         private BEEmpresa Mapear(DataRow row)
         {
@@ -90,6 +115,7 @@ namespace MPP
                 Domicilio = row["Domicilio"].ToString(),
                 MedioDePago = row["MedioDePago"].ToString(),
                 CUIT = row["CUIT"].ToString()
+                
             };
         }
     }

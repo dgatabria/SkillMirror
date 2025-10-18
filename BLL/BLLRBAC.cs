@@ -76,6 +76,32 @@ namespace BLL
         {
             return mpp.ListarRolesPorUsuario(usuario);
         }
+
+        public bool UsuarioTienePermiso(BEUsuario usuario, string nombrePermiso)
+        {
+            MPPRbac _mppRbac = new MPPRbac();
+            // Regla de Negocio 1: Un usuario inválido no tiene permisos.
+            if (usuario == null || usuario.Codigo <= 0)
+            {
+                return false;
+            }
+
+            // Regla de Negocio 2: Un usuario bloqueado o eliminado no tiene permisos.
+            if (usuario.Bloqueado || usuario.Eliminado)
+            {
+                return false;
+            }
+
+            // Regla de Negocio 3: El nombre del permiso es obligatorio.
+            if (string.IsNullOrWhiteSpace(nombrePermiso))
+            {
+                throw new ArgumentException("El nombre del permiso no puede estar vacío.");
+            }
+
+            // Si todas las reglas de negocio pasan, consultamos a la capa de persistencia.
+            return _mppRbac.UsuarioTienePermiso(usuario, nombrePermiso);
+        }
+
         #endregion
     }
 }

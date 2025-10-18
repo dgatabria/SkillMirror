@@ -42,6 +42,15 @@ namespace SkillMirror
         protected global::System.Web.UI.HtmlControls.HtmlAnchor navQuienesSomos;
 
         /// <summary>
+        /// navFAQs control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor navFAQs;
+
+        /// <summary>
         /// navServicios control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace SkillMirror
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor navServicios;
+
+        /// <summary>
+        /// navNovedades control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor navNovedades;
 
         /// <summary>
         /// navResenas control.
@@ -67,6 +85,24 @@ namespace SkillMirror
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor navContacto;
+
+        /// <summary>
+        /// txtBusquedaGlobal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtBusquedaGlobal;
+
+        /// <summary>
+        /// btnBusquedaGlobal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnBusquedaGlobal;
 
         /// <summary>
         /// litIdioma control.

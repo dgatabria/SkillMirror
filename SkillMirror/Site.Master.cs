@@ -1,35 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using BLL; 
-using BE;  
+using BLL;
+using BE;
 
 namespace SkillMirror
 {
-
-    public partial class SiteMaster : MasterPage, ITraducible
+    public partial class SiteMaster : System.Web.UI.MasterPage, ITraducible
     {
         private Traductor _traductor;
 
         protected void Page_Init(object sender, EventArgs e)
         {
-            // Verificamos si este PostBack fue causado por nuestro Repeater
-            if (Request.Form["__EVENTTARGET"] != null && Request.Form["__EVENTTARGET"].Contains("RepeaterIdiomas"))
+            // Este bloque maneja el cambio de idioma.
+            // Si se detecta el parámetro 'langid' en la URL, se cambia el idioma y se recarga la página.
+            if (Request.QueryString["langid"] != null)
             {
-                // Extraemos el ID del idioma del argumento del evento
-                string commandArgument = Request.Form["__EVENTARGUMENT"];
-                if (int.TryParse(commandArgument, out int idiomaId))
+                if (int.TryParse(Request.QueryString["langid"], out int idiomaId))
                 {
-                    // Obtenemos la instancia y cambiamos el idioma INMEDIATAMENTE
-                    Traductor.ObtenerInstancia().CambiarIdioma(idiomaId);
-                    // Forzamos una redirección para limpiar el estado del PostBack
-                    Response.Redirect(Request.RawUrl, true);
+                    // Solo cambiamos el idioma y recargamos si el ID es diferente al actual
+                    // para evitar bucles de recarga infinitos.
+                    if ((Traductor.ObtenerInstancia().IdiomaSeleccionado?.Codigo ?? 0) != idiomaId)
+                    {
+                        Traductor.ObtenerInstancia().CambiarIdioma(idiomaId);
+                        Response.Redirect(Request.Url.AbsolutePath, true);
+                    }
                 }
             }
         }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             _traductor = Traductor.ObtenerInstancia();
@@ -40,6 +38,7 @@ namespace SkillMirror
                 CargarIdiomas();
             }
 
+            // Muestra u oculta los paneles de login/usuario según el estado de autenticación
             if (HttpContext.Current.User.Identity.IsAuthenticated)
             {
                 pnlAnonymous.Visible = false;
@@ -60,18 +59,13 @@ namespace SkillMirror
 
         private void CargarIdiomas()
         {
-            // Ahora bindeamos los datos al Repeater
             RepeaterIdiomas.DataSource = _traductor.IdiomasDisponibles;
             RepeaterIdiomas.DataBind();
         }
 
-
-
-
-
         public void ActualizarTraducciones()
         {
-
+            // Traducciones de los elementos de navegación existentes
             navInicio.InnerText = _traductor.Traducir("SiteMaster_Menu_Link_Inicio");
             navQuienesSomos.InnerText = _traductor.Traducir("SiteMaster_Menu_Link_QuienesSomos");
             navServicios.InnerText = _traductor.Traducir("SiteMaster_Menu_Link_Servicios");
@@ -82,17 +76,30 @@ namespace SkillMirror
             btnLogout.Text = _traductor.Traducir("SiteMaster_MenuUsuario_Boton_CerrarSesion");
             areaderechos.InnerText = _traductor.Traducir("SiteMaster_Footer_Texto_DerechosReservados");
             areapolitica.InnerText = _traductor.Traducir("SiteMaster_Footer_Link_PoliticaPrivacidad");
+            navNovedades.InnerText = _traductor.Traducir("SiteMaster_Menu_Link_Novedades");
+            navFAQs.InnerText = _traductor.Traducir("SiteMaster_Menu_Link_FAQs");
+
+            // --- TRADUCCIONES PARA LA BÚSQUEDA ---
+            txtBusquedaGlobal.Attributes["placeholder"] = _traductor.Traducir("Busqueda_Placeholder");
+            btnBusquedaGlobal.Text = _traductor.Traducir("Busqueda_Boton");
         }
 
         protected void BtnLogout_Click(object sender, EventArgs e)
         {
             System.Web.Security.FormsAuthentication.SignOut();
-            // Limpiamos la sesión para destruir la instancia del traductor
             Session.Clear();
             Session.Abandon();
             Response.Redirect("~/Login.aspx");
         }
 
-
+        // --- EVENTO PARA EL BOTÓN DE BÚSQUEDA ---
+        protected void btnBusquedaGlobal_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(txtBusquedaGlobal.Text))
+            {
+                // Codificamos el término de búsqueda para pasarlo de forma segura en la URL
+                Response.Redirect($"~/Busqueda.aspx?q={Server.UrlEncode(txtBusquedaGlobal.Text)}");
+            }
+        }
     }
 }

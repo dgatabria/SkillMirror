@@ -158,7 +158,7 @@ namespace DAL
                 }
                 //lleno la tabla con el metodo fill
 
-                int a = comm.ExecuteNonQuery();
+                //int a = comm.ExecuteNonQuery();
                 Da.Fill(tabla);
 
             }
@@ -173,7 +173,103 @@ namespace DAL
             return tabla;
         }
 
+        public DataTable EscribirSPConDosTVP(string SPName, Hashtable Params,
+                                             DataTable tvpData1, string tvpTypeName1, string tvpParamName1,
+                                             DataTable tvpData2, string tvpTypeName2, string tvpParamName2)
+        {
+            oCnn.Open();
+            DataTable dtResult = new DataTable();
+            SqlCommand comm = new SqlCommand(SPName, oCnn);
+            comm.CommandType = CommandType.StoredProcedure;
 
+            if (Params != null) { foreach (string key in Params.Keys) { comm.Parameters.AddWithValue(key, Params[key]); } }
+
+            // Configurar primer TVP
+            SqlParameter tvpParam1 = comm.Parameters.AddWithValue(tvpParamName1, tvpData1);
+            tvpParam1.SqlDbType = SqlDbType.Structured;
+            tvpParam1.TypeName = tvpTypeName1;
+
+            // Configurar segundo TVP
+            SqlParameter tvpParam2 = comm.Parameters.AddWithValue(tvpParamName2, tvpData2);
+            tvpParam2.SqlDbType = SqlDbType.Structured;
+            tvpParam2.TypeName = tvpTypeName2;
+
+            SqlDataAdapter da = new SqlDataAdapter(comm);
+            da.Fill(dtResult); // Ejecuta el SP y captura la tabla de resultados (el ID de la FAQ)
+
+            oCnn.Close();
+            return dtResult;
+        }
+        public bool EscribirSPConTVP(string SPName, Hashtable Params, DataTable tvpData, string tvpTypeName, string tvpParamName)
+        {
+            oCnn.Open();
+            SqlCommand comm = new SqlCommand(SPName, oCnn);
+            comm.CommandType = CommandType.StoredProcedure;
+            if (Params != null) { foreach (string key in Params.Keys) { comm.Parameters.AddWithValue(key, Params[key]); } }
+
+            SqlParameter tvpParam = comm.Parameters.AddWithValue(tvpParamName, tvpData);
+            tvpParam.SqlDbType = SqlDbType.Structured;
+            tvpParam.TypeName = tvpTypeName;
+
+            int resultado = comm.ExecuteNonQuery();
+            oCnn.Close();
+            return resultado > 0;
+        }
+        public DataTable EscribirSPConTVPs(string SPName, Hashtable Params, DataTable tvpPreguntas, DataTable tvpOpciones)
+        {
+            oCnn.Open();
+            DataTable dtResult = new DataTable();
+            SqlCommand comm = new SqlCommand(SPName, oCnn);
+            comm.CommandType = CommandType.StoredProcedure;
+
+            if (Params != null) { foreach (string key in Params.Keys) { comm.Parameters.AddWithValue(key, Params[key]); } }
+
+            SqlParameter tvpParamPreguntas = comm.Parameters.AddWithValue("@Preguntas", tvpPreguntas);
+            tvpParamPreguntas.SqlDbType = SqlDbType.Structured;
+            tvpParamPreguntas.TypeName = "dbo.PreguntaTabla";
+
+            SqlParameter tvpParamOpciones = comm.Parameters.AddWithValue("@Opciones", tvpOpciones);
+            tvpParamOpciones.SqlDbType = SqlDbType.Structured;
+            tvpParamOpciones.TypeName = "dbo.OpcionTabla";
+
+            SqlDataAdapter da = new SqlDataAdapter(comm);
+            da.Fill(dtResult); // Fill ejecuta el SP y captura la tabla de resultados (el ID)
+
+            oCnn.Close();
+            return dtResult;
+        }
+        public DataSet LeerSPDS(string SPName, Hashtable Params)
+        {
+            oCnn.Open();
+            DataSet ds = new DataSet(); // Usamos un DataSet en lugar de un DataTable
+            SqlCommand comm = new SqlCommand(SPName, oCnn);
+            comm.CommandType = CommandType.StoredProcedure;
+
+            try
+            {
+                // Creamos el data adapter, que es el encargado de llenar el DataSet
+                SqlDataAdapter Da = new SqlDataAdapter(comm);
+                if (Params != null)
+                {
+                    foreach (string key in Params.Keys)
+                    {
+                        comm.Parameters.AddWithValue(key, Params[key]);
+                    }
+                }
+
+                // El método Fill se encarga de ejecutar el SP y llenar el DataSet con todas las tablas que encuentre
+                Da.Fill(ds);
+            }
+            catch (SqlException ex)
+            { throw ex; }
+            catch (Exception ex)
+            { throw ex; }
+            finally
+            { // Cierro la Conexion
+                oCnn.Close();
+            }
+            return ds; // Devolvemos el DataSet completo
+        }
         public bool EscribirConsulta(string Consulta_SQL)
         {
 

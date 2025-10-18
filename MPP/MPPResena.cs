@@ -43,7 +43,41 @@ namespace MPP
             }
             return lista;
         }
+        public BERankingEstadisticas ObtenerEstadisticas()
+        {
+            // Usamos LeerSPDS porque nuestro SP devuelve múltiples tablas
+            DataSet ds = oAcceso.LeerSPDS("sp_ObtenerEstadisticasResenas", null);
 
+            if (ds.Tables.Count < 3 || ds.Tables[0].Rows.Count == 0)
+                return new BERankingEstadisticas(); // Devolvemos un objeto vacío si no hay datos
+
+            var estadisticas = new BERankingEstadisticas();
+
+            // Procesar Tabla 1: Estadísticas Generales
+            DataRow drStats = ds.Tables[0].Rows[0];
+            estadisticas.PromedioPuntuacion = drStats["PromedioPuntuacion"] != DBNull.Value ? Convert.ToDecimal(drStats["PromedioPuntuacion"]) : 0;
+            estadisticas.TotalResenas = Convert.ToInt32(drStats["TotalResenas"]);
+
+            // Procesar Tabla 2: Distribución de Estrellas
+            foreach (DataRow dr in ds.Tables[1].Rows)
+            {
+                estadisticas.DistribucionEstrellas.Add(Convert.ToInt32(dr["Puntuacion"]), Convert.ToInt32(dr["Cantidad"]));
+            }
+
+            // Procesar Tabla 3: Reseñas Destacadas
+            foreach (DataRow dr in ds.Tables[2].Rows)
+            {
+                estadisticas.ResenasDestacadas.Add(new BEResena
+                {
+                    Asunto = dr["Asunto"].ToString(),
+                    Comentario = dr["Comentario"].ToString(),
+                    Puntuacion = Convert.ToInt32(dr["Puntuacion"]),
+                    Autor = new BEUsuario { Nombre = dr["NombreAutor"].ToString(), Apellido = dr["ApellidoAutor"].ToString() }
+                });
+            }
+
+            return estadisticas;
+        }
         public bool Aprobar(int resenaId)
         {
             var ht = new Hashtable();

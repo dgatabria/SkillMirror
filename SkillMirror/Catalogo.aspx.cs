@@ -1,94 +1,133 @@
-﻿using System;
+﻿using BE;
+using BLL;
+using System;
 using System.Collections.Generic;
-using System.Web.UI;
+using System.Web;
 using System.Web.Script.Serialization; // Necesario para JSON
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Xml.Linq;
 
 namespace SkillMirror
 {
     public partial class Catalogo : BasePage
     {
-        // Propiedades públicas para inyectar JSON en la página .aspx
         protected string _jsonPlanData = "{}";
         protected string _jsonFeatures = "[]";
+        private bool _modoContratar = false;
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            // La suscripción y manejo del idioma se hace en la BasePage
+            if (Request.QueryString["modo"] == "contratar" && HttpContext.Current.User.Identity.IsAuthenticated)
+            {
+                _modoContratar = true;
+            }
+
+            if (!IsPostBack)
+            {
+                CargarPlanes();
+            }
+        }
+
+        private void CargarPlanes()
+        {
+            var bll = new BLLNivelServicio();
+            rptPlanes.DataSource = bll.Listar();
+            rptPlanes.DataBind();
+        }
+
+        protected void RptPlanes_ItemDataBound(object sender, RepeaterItemEventArgs e)
+        {
+            if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
+            {
+                var plan = (BENivelServicio)e.Item.DataItem;
+
+                var cardHeader = (HtmlGenericControl)e.Item.FindControl("cardHeader");
+                var cardTitle = (HtmlGenericControl)e.Item.FindControl("cardTitle");
+                var litPrecio = (Literal)e.Item.FindControl("litPrecio");
+                var cardText = (HtmlGenericControl)e.Item.FindControl("cardText");
+                var litComparar = (Literal)e.Item.FindControl("litComparar");
+                var pnlBotonContratar = (Panel)e.Item.FindControl("pnlBotonContratar");
+                var btnSuscribir = (Button)e.Item.FindControl("btnSuscribir");
+
+                // --- CORRECCIÓN CLAVE ---
+                // Limpiamos el nombre y lo convertimos a minúsculas para construir la etiqueta
+                string planKey = plan.Nombre.Trim().ToLower();
+
+                cardTitle.InnerText = _traductor.Traducir($"catalogo_plan_{planKey}_nombre");
+                cardText.InnerText = _traductor.Traducir($"catalogo_plan_{planKey}_texto");
+                // -----------------------
+
+                litComparar.Text = _traductor.Traducir("Catalogo_Plan_Boton_Comparar");
+                btnSuscribir.Text = _traductor.Traducir("Catalogo_Boton_Suscribir");
+
+                if (plan.CostoMensual == 0)
+                {
+                    litPrecio.Text = _traductor.Traducir("Catalogo_Plan_Enterprise_Precio");
+                }
+                else
+                {
+                    litPrecio.Text = $"${plan.CostoMensual:N0}<small class='text-muted fw-light'>{_traductor.Traducir("Catalogo_Plan_Termino_Mes")}</small>";
+                }
+
+                if (plan.Nombre.Trim().ToUpper() == "PRO")
+                {
+                    cardHeader.Attributes["class"] = "card-header text-white";
+                    cardHeader.Style.Add("background-color", "var(--primary-color)");
+                }
+
+                if (_modoContratar)
+                {
+                    pnlBotonContratar.Visible = true;
+                }
+            }
+        }
+
+
+        protected void RptPlanes_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            if (e.CommandName == "Suscribir")
+            {
+                string planId = e.CommandArgument.ToString();
+                Response.Redirect($"~/Contratar.aspx?planId={planId}");
+            }
         }
 
         public override void ActualizarTraducciones()
         {
-            // --- Traducción de la página ---
             this.Title = _traductor.Traducir("Catalogo_Page_Title");
             headerTitle.InnerText = _traductor.Traducir("Catalogo_Header_Titulo");
             headerSubtitle.InnerText = _traductor.Traducir("Catalogo_Header_Subtitulo");
-
-            // Plan BASIC
-            basicCardTitle.InnerText = _traductor.Traducir("Catalogo_Plan_Basic_Titulo");
-            basicPriceTerm.InnerText = _traductor.Traducir("Catalogo_Plan_Termino_Mes");
-            basicCardText.InnerText = _traductor.Traducir("Catalogo_Plan_Basic_Texto");
-            litBasicCompare.Text = _traductor.Traducir("Catalogo_Plan_Boton_Comparar");
-
-            // Plan PRO
-            proCardTitle.InnerText = _traductor.Traducir("Catalogo_Plan_Pro_Titulo");
-            proPriceTerm.InnerText = _traductor.Traducir("Catalogo_Plan_Termino_Mes");
-            proCardText.InnerText = _traductor.Traducir("Catalogo_Plan_Pro_Texto");
-            litProCompare.Text = _traductor.Traducir("Catalogo_Plan_Boton_Comparar");
-
-            // Plan ENTERPRISE
-            enterpriseCardTitle.InnerText = _traductor.Traducir("Catalogo_Plan_Enterprise_Titulo");
-            enterprisePrice.InnerText = _traductor.Traducir("Catalogo_Plan_Enterprise_Precio");
-            enterpriseCardText.InnerText = _traductor.Traducir("Catalogo_Plan_Enterprise_Texto");
-            litEnterpriseCompare.Text = _traductor.Traducir("Catalogo_Plan_Boton_Comparar");
-
-            // --- Traducción de la tabla comparativa (vía JSON) ---
             comparisonTitle.InnerText = _traductor.Traducir("Catalogo_Tabla_Titulo");
 
-            // Preparamos los datos para el JavaScript
+            CargarPlanes();
             PrepararDatosParaScript();
         }
 
         private void PrepararDatosParaScript()
         {
-            // 1. Datos de los planes (los textos son los tags que se traducirán en el script)
-            var planData = new
-            {
-                basic = new
-                {
-                    name = _traductor.Traducir("Catalogo_Plan_Basic_Nombre"),
-                    price = _traductor.Traducir("Catalogo_Plan_Basic_Precio"),
-                    procesos = _traductor.Traducir("Catalogo_Feature_Procesos_Basic"),
-                    evaluaciones = _traductor.Traducir("Catalogo_Feature_Evaluaciones_Basic"),
-                    reportes = _traductor.Traducir("Catalogo_Feature_Reportes_Basic"),
-                    soporte = _traductor.Traducir("Catalogo_Feature_Soporte_Basic"),
-                    // CAMBIO AQUÍ
-                    integraciones = _traductor.Traducir("Catalogo_Feature_Integraciones_Basic").Replace("❌", "&#10060;")
-                },
-                pro = new
-                {
-                    name = _traductor.Traducir("Catalogo_Plan_Pro_Nombre"),
-                    price = _traductor.Traducir("Catalogo_Plan_Pro_Precio"),
-                    procesos = _traductor.Traducir("Catalogo_Feature_Procesos_Pro"),
-                    evaluaciones = _traductor.Traducir("Catalogo_Feature_Evaluaciones_Pro"),
-                    reportes = _traductor.Traducir("Catalogo_Feature_Reportes_Pro"),
-                    soporte = _traductor.Traducir("Catalogo_Feature_Soporte_Pro"),
-                    // CAMBIO AQUÍ
-                    integraciones = _traductor.Traducir("Catalogo_Feature_Integraciones_Pro").Replace("✔️", "&#10004;")
-                },
-                enterprise = new
-                {
-                    name = _traductor.Traducir("Catalogo_Plan_Enterprise_Nombre"),
-                    price = _traductor.Traducir("Catalogo_Plan_Enterprise_Precio"),
-                    procesos = _traductor.Traducir("Catalogo_Feature_Procesos_Enterprise"),
-                    evaluaciones = _traductor.Traducir("Catalogo_Feature_Evaluaciones_Enterprise"),
-                    reportes = _traductor.Traducir("Catalogo_Feature_Reportes_Enterprise"),
-                    soporte = _traductor.Traducir("Catalogo_Feature_Soporte_Enterprise"),
-                    // CAMBIO AQUÍ
-                    integraciones = _traductor.Traducir("Catalogo_Feature_Integraciones_Enterprise") //.Replace("✔️", "&#10004;")
-                }
-            };
+            var bll = new BLLNivelServicio();
+            var planes = bll.Listar();
+            var planData = new Dictionary<string, object>();
 
-            // 2. Etiquetas de las características (esto no cambia)
+            foreach (var plan in planes)
+            {
+                // --- CORRECCIÓN CLAVE ---
+                string planKey = plan.Nombre.Trim().ToLower();
+                // -----------------------
+
+                planData[planKey] = new
+                {
+                    name = _traductor.Traducir($"catalogo_plan_{planKey}_nombre"),
+                    price = plan.CostoMensual > 0 ? $"${plan.CostoMensual:N0}" : _traductor.Traducir("Catalogo_Plan_Enterprise_Precio"),
+                    procesos = _traductor.Traducir($"catalogo_feature_procesos_{planKey}"),
+                    evaluaciones = _traductor.Traducir($"catalogo_feature_evaluaciones_{planKey}"),
+                    reportes = _traductor.Traducir($"catalogo_feature_reportes_{planKey}"),
+                    soporte = _traductor.Traducir($"catalogo_feature_soporte_{planKey}"),
+                    integraciones = _traductor.Traducir($"catalogo_feature_integraciones_{planKey}")
+                };
+            }
+
             var features = new object[]
             {
         new { key = "header", headerLabel = _traductor.Traducir("Catalogo_Tabla_Header_Caracteristica") },
@@ -100,7 +139,6 @@ namespace SkillMirror
         new { key = "integraciones", label = _traductor.Traducir("Catalogo_Tabla_Feature_Integraciones") }
             };
 
-            // 3. Serializamos a JSON (esto no cambia)
             var serializer = new JavaScriptSerializer();
             _jsonPlanData = serializer.Serialize(planData);
             _jsonFeatures = serializer.Serialize(features);

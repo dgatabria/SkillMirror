@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -12,9 +13,67 @@ namespace MPP
 {
     public class MPPCrypto
     {
+        private static readonly byte[] Key = Encoding.UTF8.GetBytes("EstaEsUnaClaveSuperSeguraDe32Chr"); // Debe tener 32 bytes (256 bits)
+        private static readonly byte[] IV = Encoding.UTF8.GetBytes("Sk1llM1rr0r_IV_16");
 
+        public byte[] Encrypt(string plainText)
+        {
+            if (string.IsNullOrEmpty(plainText))
+                return null;
 
-            public string HashPassword(string password, byte[] salt)
+            using (Aes aesAlg = Aes.Create())
+            {
+                aesAlg.Key = Key;
+                //aesAlg.IV = IV;
+                aesAlg.BlockSize = 128; // El tamaño del bloque para AES es siempre 128 bits.
+                aesAlg.Mode = CipherMode.CBC;
+                aesAlg.Padding = PaddingMode.PKCS7;
+                aesAlg.GenerateIV(); // El IV generado será del tamaño del BlockSize (128 bits / 16 bytes).
+                byte[] iv = aesAlg.IV;
+
+                ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
+
+                using (MemoryStream msEncrypt = new MemoryStream())
+                {
+                    using (CryptoStream csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
+                    {
+                        using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
+                        {
+                            swEncrypt.Write(plainText);
+                        }
+                        return msEncrypt.ToArray();
+                    }
+                }
+            }
+        }
+        public string Decrypt(byte[] cipherText)
+        {
+            if (cipherText == null || cipherText.Length <= 0)
+                return null;
+
+            string plaintext = null;
+
+            using (Aes aesAlg = Aes.Create())
+            {
+                aesAlg.Key = Key;
+                aesAlg.IV = IV;
+
+                ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
+
+                using (MemoryStream msDecrypt = new MemoryStream(cipherText))
+                {
+                    using (CryptoStream csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
+                    {
+                        using (StreamReader srDecrypt = new StreamReader(csDecrypt))
+                        {
+                            plaintext = srDecrypt.ReadToEnd();
+                        }
+                    }
+                }
+            }
+            return plaintext;
+        }
+        public string HashPassword(string password, byte[] salt)
             {
                 using (var sha256 = SHA256.Create())
                 {

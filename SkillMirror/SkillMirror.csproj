@@ -98,11 +98,21 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="ActivarCuenta.aspx" />
+    <Content Include="AdminConversaciones.aspx" />
     <Content Include="AdminEmpresas.aspx" />
+    <Content Include="AdminEncuestas.aspx" />
+    <Content Include="AdminFAQs.aspx" />
+    <Content Include="AdminIdiomas.aspx" />
+    <Content Include="AdminNotasCredito.aspx" />
+    <Content Include="AdminNovedades.aspx" />
+    <Content Include="AdminPublicidad.aspx" />
     <Content Include="AdminResenas.aspx" />
     <Content Include="AdminRoles.aspx" />
     <Content Include="AdminUsuarios.aspx" />
+    <Content Include="AdminVerConversacion.aspx" />
+    <Content Include="Backup.aspx" />
     <Content Include="Bitacora.aspx" />
+    <Content Include="Busqueda.aspx" />
     <Content Include="Catalogo.aspx" />
     <Content Include="Consola.aspx" />
     <Content Include="Contact.aspx" />
@@ -124,21 +134,38 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="ContratacionExitosa.aspx" />
+    <Content Include="Contratar.aspx" />
+    <Content Include="Controles\BannerPublicidad.ascx" />
+    <Content Include="DashboardGanancias.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="EditarEmpresa.aspx" />
+    <Content Include="EditarEncuesta.aspx" />
+    <Content Include="EditarFAQ.aspx" />
+    <Content Include="EditarNovedad.aspx" />
+    <Content Include="EditarPublicidad.aspx" />
     <Content Include="EditarUsuario.aspx" />
+    <Content Include="FAQs.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="img\skillmirror150px.png" />
     <Content Include="Login.aspx" />
     <Content Include="MiPerfil.aspx" />
+    <Content Include="MisMensajes.aspx" />
+    <Content Include="MiVerConversacion.aspx" />
+    <Content Include="Novedades.aspx" />
+    <Content Include="NovedadesService.asmx" />
+    <Content Include="NuevoMensaje.aspx" />
     <Content Include="PoliticaDePrivacidad.aspx" />
     <Content Include="QuienesSomos.aspx" />
+    <Content Include="RankingResenas.aspx" />
     <Content Include="RecuperarClave.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="Resenas.aspx" />
     <Content Include="ResenasService.asmx" />
     <Content Include="ResetPassword.aspx" />
+    <Content Include="ResponderEncuesta.aspx" />
+    <Content Include="ResultadosEncuesta.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -193,9 +220,17 @@
     </Compile>
     <Compile Include="Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminConversaciones.aspx.cs">
+      <DependentUpon>AdminConversaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminConversaciones.aspx.designer.cs">
+      <DependentUpon>AdminConversaciones.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminEmpresas.aspx.cs">
       <DependentUpon>AdminEmpresas.aspx</DependentUpon>
@@ -203,6 +238,48 @@
     </Compile>
     <Compile Include="AdminEmpresas.aspx.designer.cs">
       <DependentUpon>AdminEmpresas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEncuestas.aspx.cs">
+      <DependentUpon>AdminEncuestas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEncuestas.aspx.designer.cs">
+      <DependentUpon>AdminEncuestas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFAQs.aspx.cs">
+      <DependentUpon>AdminFAQs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminFAQs.aspx.designer.cs">
+      <DependentUpon>AdminFAQs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminIdiomas.aspx.cs">
+      <DependentUpon>AdminIdiomas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminIdiomas.aspx.designer.cs">
+      <DependentUpon>AdminIdiomas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminNotasCredito.aspx.cs">
+      <DependentUpon>AdminNotasCredito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminNotasCredito.aspx.designer.cs">
+      <DependentUpon>AdminNotasCredito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminNovedades.aspx.cs">
+      <DependentUpon>AdminNovedades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminNovedades.aspx.designer.cs">
+      <DependentUpon>AdminNovedades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPublicidad.aspx.cs">
+      <DependentUpon>AdminPublicidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPublicidad.aspx.designer.cs">
+      <DependentUpon>AdminPublicidad.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminResenas.aspx.cs">
       <DependentUpon>AdminResenas.aspx</DependentUpon>
@@ -225,6 +302,13 @@
     <Compile Include="AdminUsuarios.aspx.designer.cs">
       <DependentUpon>AdminUsuarios.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminVerConversacion.aspx.cs">
+      <DependentUpon>AdminVerConversacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminVerConversacion.aspx.designer.cs">
+      <DependentUpon>AdminVerConversacion.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -234,6 +318,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Backup.aspx.cs">
+      <DependentUpon>Backup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Backup.aspx.designer.cs">
+      <DependentUpon>Backup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -243,6 +334,13 @@
     </Compile>
     <Compile Include="Bitacora.aspx.designer.cs">
       <DependentUpon>Bitacora.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Busqueda.aspx.cs">
+      <DependentUpon>Busqueda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Busqueda.aspx.designer.cs">
+      <DependentUpon>Busqueda.aspx</DependentUpon>
     </Compile>
     <Compile Include="Catalogo.aspx.cs">
       <DependentUpon>Catalogo.aspx</DependentUpon>
@@ -272,6 +370,34 @@
     <Compile Include="Contactenos.aspx.designer.cs">
       <DependentUpon>Contactenos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ContratacionExitosa.aspx.cs">
+      <DependentUpon>ContratacionExitosa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContratacionExitosa.aspx.designer.cs">
+      <DependentUpon>ContratacionExitosa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contratar.aspx.cs">
+      <DependentUpon>Contratar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contratar.aspx.designer.cs">
+      <DependentUpon>Contratar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\BannerPublicidad.ascx.cs">
+      <DependentUpon>BannerPublicidad.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\BannerPublicidad.ascx.designer.cs">
+      <DependentUpon>BannerPublicidad.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardGanancias.aspx.cs">
+      <DependentUpon>DashboardGanancias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashboardGanancias.aspx.designer.cs">
+      <DependentUpon>DashboardGanancias.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -286,12 +412,47 @@
     <Compile Include="EditarEmpresa.aspx.designer.cs">
       <DependentUpon>EditarEmpresa.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditarEncuesta.aspx.cs">
+      <DependentUpon>EditarEncuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarEncuesta.aspx.designer.cs">
+      <DependentUpon>EditarEncuesta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarFAQ.aspx.cs">
+      <DependentUpon>EditarFAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarFAQ.aspx.designer.cs">
+      <DependentUpon>EditarFAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarNovedad.aspx.cs">
+      <DependentUpon>EditarNovedad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarNovedad.aspx.designer.cs">
+      <DependentUpon>EditarNovedad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarPublicidad.aspx.cs">
+      <DependentUpon>EditarPublicidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarPublicidad.aspx.designer.cs">
+      <DependentUpon>EditarPublicidad.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EditarUsuario.aspx.cs">
       <DependentUpon>EditarUsuario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="EditarUsuario.aspx.designer.cs">
       <DependentUpon>EditarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQs.aspx.cs">
+      <DependentUpon>FAQs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FAQs.aspx.designer.cs">
+      <DependentUpon>FAQs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -309,6 +470,38 @@
     </Compile>
     <Compile Include="MiPerfil.aspx.designer.cs">
       <DependentUpon>MiPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MisMensajes.aspx.cs">
+      <DependentUpon>MisMensajes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MisMensajes.aspx.designer.cs">
+      <DependentUpon>MisMensajes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MiVerConversacion.aspx.cs">
+      <DependentUpon>MiVerConversacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MiVerConversacion.aspx.designer.cs">
+      <DependentUpon>MiVerConversacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Novedades.aspx.cs">
+      <DependentUpon>Novedades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Novedades.aspx.designer.cs">
+      <DependentUpon>Novedades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NovedadesService.asmx.cs">
+      <DependentUpon>NovedadesService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NuevoMensaje.aspx.cs">
+      <DependentUpon>NuevoMensaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NuevoMensaje.aspx.designer.cs">
+      <DependentUpon>NuevoMensaje.aspx</DependentUpon>
     </Compile>
     <Compile Include="PoliticaDePrivacidad.aspx.cs">
       <DependentUpon>PoliticaDePrivacidad.aspx</DependentUpon>
@@ -329,6 +522,13 @@
     </Compile>
     <Compile Include="QuienesSomos.aspx.designer.cs">
       <DependentUpon>QuienesSomos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RankingResenas.aspx.cs">
+      <DependentUpon>RankingResenas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RankingResenas.aspx.designer.cs">
+      <DependentUpon>RankingResenas.aspx</DependentUpon>
     </Compile>
     <Compile Include="RecuperarClave.aspx.cs">
       <DependentUpon>RecuperarClave.aspx</DependentUpon>
@@ -362,6 +562,20 @@
     <Compile Include="ResetPassword.aspx.designer.cs">
       <DependentUpon>ResetPassword.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ResponderEncuesta.aspx.cs">
+      <DependentUpon>ResponderEncuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResponderEncuesta.aspx.designer.cs">
+      <DependentUpon>ResponderEncuesta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResultadosEncuesta.aspx.cs">
+      <DependentUpon>ResultadosEncuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResultadosEncuesta.aspx.designer.cs">
+      <DependentUpon>ResultadosEncuesta.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -393,6 +607,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="img\banners\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

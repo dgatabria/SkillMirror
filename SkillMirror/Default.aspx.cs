@@ -1,21 +1,116 @@
-﻿using System;
-using System.Web.UI;
+﻿using BE;  // Necesario para la interfaz ITraducible
 using BLL; // Necesario para el Traductor
-using BE;  // Necesario para la interfaz ITraducible
+using System;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Linq;
 
 namespace SkillMirror
 {
     // PASO 1: Implementamos la interfaz ITraducible
     public partial class _Default : BasePage
     {
+        private BLLEncuesta _bllEncuesta;
+        private BLLUsuario _bllUsuario;
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            // nada
+            _bllEncuesta = new BLLEncuesta();
+            _bllUsuario = new BLLUsuario();
 
+            if (!IsPostBack)
+            {
+                CargarEncuesta();
+            }
+        }
+
+        private void CargarEncuesta()
+        {
+            // La encuesta solo se muestra si el usuario está logueado
+            if (HttpContext.Current.User.Identity.IsAuthenticated)
+            {
+                var encuestaPregunta = _bllEncuesta.ObtenerEncuestaParaPortada();
+                if (encuestaPregunta != null)
+                {
+                    var usuario = _bllUsuario.ListarObjeto(new BEUsuario { Email = HttpContext.Current.User.Identity.Name });
+
+                    // Guardamos los IDs en ViewState para usarlos después
+                    ViewState["EncuestaID"] = encuestaPregunta.EncuestaPadre.Codigo;
+                    ViewState["PreguntaID"] = encuestaPregunta.Codigo;
+
+                    // Verificamos si el usuario ya respondió
+                    if (_bllEncuesta.UsuarioYaRespondio(encuestaPregunta.EncuestaPadre.Codigo, usuario.Codigo))
+                    {
+                        // Si ya respondió, mostramos los resultados directamente
+                        MostrarResultados();
+                    }
+                    else
+                    {
+                        // Si no ha respondido, mostramos la pregunta
+                        pnlEncuestaFlotante.Visible = true;
+                        pnlPregunta.Visible = true;
+                        pnlResultados.Visible = false;
+
+                        litEncuestaTitulo.Text = encuestaPregunta.EncuestaPadre.Titulo;
+                        litPreguntaTexto.Text = encuestaPregunta.TextoPregunta;
+                        rptOpciones.DataSource = encuestaPregunta.Opciones;
+                        rptOpciones.DataBind();
+                    }
+                }
+            }
+        }
+
+        protected void rptOpciones_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            if (e.CommandName == "Votar")
+            {
+                int idOpcion = Convert.ToInt32(e.CommandArgument);
+                int idEncuesta = (int)ViewState["EncuestaID"];
+                int idPregunta = (int)ViewState["PreguntaID"];
+                var usuario = _bllUsuario.ListarObjeto(new BEUsuario { Email = HttpContext.Current.User.Identity.Name });
+
+                // Registramos la respuesta
+                _bllEncuesta.RegistrarRespuestaPortada(idEncuesta, usuario.Codigo, idPregunta, idOpcion);
+
+                // Mostramos los resultados
+                MostrarResultados();
+            }
+        }
+
+        private void MostrarResultados()
+        {
+            int idEncuesta = (int)ViewState["EncuestaID"];
+            var resultados = _bllEncuesta.ObtenerResultados(idEncuesta);
+
+            pnlEncuestaFlotante.Visible = true;
+            pnlPregunta.Visible = false;
+            pnlResultados.Visible = true;
+
+            if (resultados != null && resultados.ResultadosPorPregunta.Any())
+            {
+                var preguntaResultados = resultados.ResultadosPorPregunta.First();
+                litEncuestaTitulo.Text = resultados.TituloEncuesta;
+
+                // Calculamos los porcentajes
+                var totalVotos = preguntaResultados.ConteoOpciones.Values.Sum();
+                var resultadosConPorcentaje = preguntaResultados.ConteoOpciones.ToDictionary(
+                    kvp => kvp.Key,
+                    kvp => (totalVotos > 0) ? (int)Math.Round((double)kvp.Value * 100 / totalVotos) : 0
+                );
+
+                rptResultados.DataSource = resultadosConPorcentaje;
+                rptResultados.DataBind();
+            }
         }
 
 
 
+
+        public string Traducir(string tag)
+        {
+            return _traductor.Traducir(tag);
+        }
 
         public override void ActualizarTraducciones()
         {

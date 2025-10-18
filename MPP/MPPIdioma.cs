@@ -1,9 +1,12 @@
-﻿using System;
+﻿using BE; // Asegúrate de que el namespace de tus entidades sea BE
+using DAL; // Asegúrate de que el namespace de tu capa de acceso a datos sea DAL
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
-using BE; // Asegúrate de que el namespace de tus entidades sea BE
-using DAL; // Asegúrate de que el namespace de tu capa de acceso a datos sea DAL
+using System.IO;
+using System.Linq;
+using System.Xml.Linq;
 
 namespace MPP
 {
@@ -22,12 +25,6 @@ namespace MPP
             oAcceso = new Acceso();
         }
 
-        /// <summary>
-        /// Obtiene un idioma específico con todas sus traducciones.
-        /// Utiliza el SP sp_ListarIdiomaPorID.
-        /// </summary>
-        /// <param name="idioma">Objeto BEIdioma solo con la propiedad 'Codigo' seteada.</param>
-        /// <returns>Un objeto BEIdioma completo o null si no se encuentra.</returns>
         public BEIdioma ListarIdioma(BEIdioma idioma)
         {
             try
@@ -168,6 +165,62 @@ namespace MPP
             {
                 throw new Exception("Error en MPP al dar de baja el idioma: " + ex.Message);
             }
+        }
+
+
+        // --- MÉTODOS NUEVOS PARA XML ---
+        public string ExportarAXml(int idiomaId)
+        {
+            BEIdioma idiomaCompleto = this.ListarIdioma(new BEIdioma { Codigo = idiomaId });
+
+            if (idiomaCompleto == null) return null;
+
+            var xDocument = new XDocument(
+                new XElement("idioma",
+                    new XAttribute("nombre", idiomaCompleto.Nombre),
+                    new XElement("traducciones",
+                        idiomaCompleto.Palabras.Cast<DictionaryEntry>().Select(kv =>
+                            new XElement("traduccion",
+                                new XAttribute("tag", kv.Key.ToString()),
+                                new XAttribute("texto", kv.Value.ToString())
+                            )
+                        )
+                    )
+                )
+            );
+            return xDocument.ToString();
+        }
+
+        public void ImportarDesdeXml(Stream xmlStream)
+        {
+            var xDocument = XDocument.Load(xmlStream);
+            var idiomaElement = xDocument.Element("idioma");
+
+            if (idiomaElement == null)
+                throw new Exception("El formato del XML no es válido. Falta el nodo raíz 'idioma'.");
+
+            var nuevoIdioma = new BEIdioma
+            {
+                Codigo = 0, // Siempre es un idioma nuevo
+                Nombre = idiomaElement.Attribute("nombre")?.Value
+            };
+
+            var traduccionesElement = idiomaElement.Element("traducciones");
+            if (traduccionesElement != null)
+            {
+                foreach (var tradElement in traduccionesElement.Elements("traduccion"))
+                {
+                    string tag = tradElement.Attribute("tag")?.Value;
+                    string texto = tradElement.Attribute("texto")?.Value;
+                    if (!string.IsNullOrEmpty(tag))
+                    {
+                        nuevoIdioma.Palabras.Add(tag, texto);
+                    }
+                }
+            }
+
+            // Reutilizamos el método Guardar que ya sabe cómo usar el TVP
+            this.Guardar(nuevoIdioma);
         }
     }
 }

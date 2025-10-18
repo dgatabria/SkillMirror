@@ -41,11 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MPPBackup.cs" />
     <Compile Include="MPPBitacora.cs" />
+    <Compile Include="MPPBusqueda.cs" />
     <Compile Include="MPPCrypto.cs" />
     <Compile Include="MPPEMpresa.cs" />
+    <Compile Include="MPPEncuesta.cs" />
+    <Compile Include="MPPFacturacion.cs" />
+    <Compile Include="MPPFAQ.cs" />
     <Compile Include="MPPIdioma.cs" />
     <Compile Include="MPPLogin.cs" />
+    <Compile Include="MPPMensajeria.cs" />
+    <Compile Include="MPPNivelServicio.cs" />
+    <Compile Include="MPPNovedad.cs" />
+    <Compile Include="MPPPublicidad.cs" />
     <Compile Include="MPPRBAC.cs" />
     <Compile Include="MPPResena.cs" />
     <Compile Include="MPPUsuario.cs" />

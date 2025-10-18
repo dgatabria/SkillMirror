@@ -46,11 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLLBackup.cs" />
     <Compile Include="BLLBitacora.cs" />
+    <Compile Include="BLLBusqueda.cs" />
     <Compile Include="BLLEmail.cs" />
     <Compile Include="BLLEmpresa.cs" />
+    <Compile Include="BLLEncuesta.cs" />
+    <Compile Include="BLLFacturacion.cs" />
+    <Compile Include="BLLFAQ.cs" />
     <Compile Include="BLLIdioma.cs" />
+    <Compile Include="BLLMensajeria.cs" />
+    <Compile Include="BLLNivelServicio.cs" />
+    <Compile Include="BLLNovedad.cs" />
     <Compile Include="BLLogin.cs" />
+    <Compile Include="BLLPublicidad.cs" />
     <Compile Include="BLLRBAC.cs" />
     <Compile Include="BLLReCaptcha.cs" />
     <Compile Include="BLLResena.cs" />

@@ -17,11 +17,14 @@ namespace BLL
             mpp = new MPPEmpresa();
         }
 
-        public bool Guardar(BEEmpresa empresa)
+        public int Guardar(BEEmpresa empresa)
         {
             return mpp.Guardar(empresa);
         }
-
+        public bool ActualizarPlan(int idEmpresa, int idPlan)
+        {
+            return mpp.ActualizarPlan(idEmpresa, idPlan);
+        }
         public bool Baja(BEEmpresa empresa)
         {
             return mpp.Baja(empresa);

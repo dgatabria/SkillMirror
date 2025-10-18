@@ -28,6 +28,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:ScriptManager runat="server"></asp:ScriptManager>
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
                 <div class="container">
@@ -48,7 +49,13 @@
             <a id="navQuienesSomos" runat="server" class="nav-link" href="~/QuienesSomos.aspx">Quiénes Somos</a>
         </li>
         <li class="nav-item">
+            <a id="navFAQs" runat="server" class="nav-link" href="~/FAQs.aspx">FAQs</a>
+        </li>
+        <li class="nav-item">
             <a id="navServicios" runat="server" class="nav-link" href="~/Catalogo.aspx">Servicios</a>
+        </li>
+        <li class="nav-item">
+            <a id="navNovedades" runat="server" class="nav-link" href="~/Novedades.aspx">Novedades</a>
         </li>
         <li class="nav-item">
             <a id="navResenas" runat="server" class="nav-link" href="~/Resenas.aspx">Reseñas</a>
@@ -56,6 +63,12 @@
         <li class="nav-item">
             <a id="navContacto" runat="server" class="nav-link" href="~/Contactenos.aspx">Contáctenos</a>
         </li>
+                            <li class="nav-item ms-lg-3">
+                                <div class="d-flex">
+                                    <asp:TextBox ID="txtBusquedaGlobal" runat="server" CssClass="form-control me-2"></asp:TextBox>
+                                    <asp:Button ID="btnBusquedaGlobal" runat="server" OnClick="btnBusquedaGlobal_Click" CssClass="btn btn-outline-primary" />
+                                </div>
+                            </li>
 
         <li class="nav-item dropdown mx-2">
             <a class="nav-link dropdown-toggle" href="#" id="navbarLangDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
