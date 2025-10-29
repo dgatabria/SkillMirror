@@ -27,7 +27,7 @@ namespace MPP
                     Codigo = Convert.ToInt32(dr["ID"]),
                     Nombre = dr["Nombre"].ToString(),
                     Gratis = Convert.ToBoolean(dr["Gratis"]),
-                    CostoMensual = Convert.ToDouble(dr["CostoMensual"])
+                    CostoMensual = Convert.ToDecimal(dr["CostoMensual"])
                 };
             }
             return null;
@@ -43,7 +43,7 @@ namespace MPP
                     Codigo = Convert.ToInt32(dr["ID"]),
                     Nombre = dr["Nombre"].ToString(),
                     Gratis = Convert.ToBoolean(dr["Gratis"]),
-                    CostoMensual = Convert.ToDouble(dr["CostoMensual"])
+                    CostoMensual = Convert.ToDecimal(dr["CostoMensual"])
                 });
             }
             return lista;

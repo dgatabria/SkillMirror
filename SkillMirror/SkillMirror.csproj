@@ -105,6 +105,7 @@
     <Content Include="AdminIdiomas.aspx" />
     <Content Include="AdminNotasCredito.aspx" />
     <Content Include="AdminNovedades.aspx" />
+    <Content Include="AdminPlanes.aspx" />
     <Content Include="AdminPublicidad.aspx" />
     <Content Include="AdminResenas.aspx" />
     <Content Include="AdminRoles.aspx" />
@@ -143,6 +144,7 @@
     <Content Include="EditarEncuesta.aspx" />
     <Content Include="EditarFAQ.aspx" />
     <Content Include="EditarNovedad.aspx" />
+    <Content Include="EditarPlan.aspx" />
     <Content Include="EditarPublicidad.aspx" />
     <Content Include="EditarUsuario.aspx" />
     <Content Include="FAQs.aspx" />
@@ -273,6 +275,13 @@
     </Compile>
     <Compile Include="AdminNovedades.aspx.designer.cs">
       <DependentUpon>AdminNovedades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPlanes.aspx.cs">
+      <DependentUpon>AdminPlanes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPlanes.aspx.designer.cs">
+      <DependentUpon>AdminPlanes.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminPublicidad.aspx.cs">
       <DependentUpon>AdminPublicidad.aspx</DependentUpon>
@@ -432,6 +441,13 @@
     </Compile>
     <Compile Include="EditarNovedad.aspx.designer.cs">
       <DependentUpon>EditarNovedad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarPlan.aspx.cs">
+      <DependentUpon>EditarPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarPlan.aspx.designer.cs">
+      <DependentUpon>EditarPlan.aspx</DependentUpon>
     </Compile>
     <Compile Include="EditarPublicidad.aspx.cs">
       <DependentUpon>EditarPublicidad.aspx</DependentUpon>

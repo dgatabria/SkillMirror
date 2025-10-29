@@ -49,11 +49,13 @@
     <Compile Include="MPPEncuesta.cs" />
     <Compile Include="MPPFacturacion.cs" />
     <Compile Include="MPPFAQ.cs" />
+    <Compile Include="MPPFeatures.cs" />
     <Compile Include="MPPIdioma.cs" />
     <Compile Include="MPPLogin.cs" />
     <Compile Include="MPPMensajeria.cs" />
     <Compile Include="MPPNivelServicio.cs" />
     <Compile Include="MPPNovedad.cs" />
+    <Compile Include="MPPPlanes.cs" />
     <Compile Include="MPPPublicidad.cs" />
     <Compile Include="MPPRBAC.cs" />
     <Compile Include="MPPResena.cs" />

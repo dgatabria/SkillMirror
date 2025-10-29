@@ -50,6 +50,9 @@ namespace SkillMirror
             TerminosValidator.ErrorMessage = _traductor.Traducir("Registro_Form_Error_Terminos");
             btnRegister.Text = _traductor.Traducir("Registro_Boton_Registrarse");
 
+            ApellidoRegexValidator.ErrorMessage = _traductor.Traducir("Registro_Form_Error_Apellido_Regex");
+            NombreRegexValidator.ErrorMessage = _traductor.Traducir("Registro_Form_Error_Nombre_Regex");
+
             // Panel de Confirmación
             litConfirmacionTitulo.Text = _traductor.Traducir("Registro_Confirm_Titulo");
             litConfirmacionTexto1.Text = _traductor.Traducir("Registro_Confirm_Texto1");

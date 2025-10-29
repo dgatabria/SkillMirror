@@ -2,6 +2,7 @@
 using System.Web;
 using BLL;
 using BE;
+using System.Web.UI.WebControls; // Necesario para Label
 
 namespace SkillMirror
 {
@@ -11,14 +12,11 @@ namespace SkillMirror
 
         protected void Page_Init(object sender, EventArgs e)
         {
-            // Este bloque maneja el cambio de idioma.
-            // Si se detecta el parámetro 'langid' en la URL, se cambia el idioma y se recarga la página.
+            // Manejo de cambio de idioma (sin cambios)
             if (Request.QueryString["langid"] != null)
             {
                 if (int.TryParse(Request.QueryString["langid"], out int idiomaId))
                 {
-                    // Solo cambiamos el idioma y recargamos si el ID es diferente al actual
-                    // para evitar bucles de recarga infinitos.
                     if ((Traductor.ObtenerInstancia().IdiomaSeleccionado?.Codigo ?? 0) != idiomaId)
                     {
                         Traductor.ObtenerInstancia().CambiarIdioma(idiomaId);
@@ -36,9 +34,11 @@ namespace SkillMirror
             if (!IsPostBack)
             {
                 CargarIdiomas();
+                // Llamamos explícitamente para asegurar la traducción inicial
+                ActualizarTraducciones();
             }
 
-            // Muestra u oculta los paneles de login/usuario según el estado de autenticación
+            // Visibilidad de paneles login/usuario (sin cambios)
             if (HttpContext.Current.User.Identity.IsAuthenticated)
             {
                 pnlAnonymous.Visible = false;
@@ -65,7 +65,7 @@ namespace SkillMirror
 
         public void ActualizarTraducciones()
         {
-            // Traducciones de los elementos de navegación existentes
+            // Traducciones existentes (sin cambios)
             navInicio.InnerText = _traductor.Traducir("SiteMaster_Menu_Link_Inicio");
             navQuienesSomos.InnerText = _traductor.Traducir("SiteMaster_Menu_Link_QuienesSomos");
             navServicios.InnerText = _traductor.Traducir("SiteMaster_Menu_Link_Servicios");
@@ -78,26 +78,33 @@ namespace SkillMirror
             areapolitica.InnerText = _traductor.Traducir("SiteMaster_Footer_Link_PoliticaPrivacidad");
             navNovedades.InnerText = _traductor.Traducir("SiteMaster_Menu_Link_Novedades");
             navFAQs.InnerText = _traductor.Traducir("SiteMaster_Menu_Link_FAQs");
-
-            // --- TRADUCCIONES PARA LA BÚSQUEDA ---
             txtBusquedaGlobal.Attributes["placeholder"] = _traductor.Traducir("Busqueda_Placeholder");
             btnBusquedaGlobal.Text = _traductor.Traducir("Busqueda_Boton");
+
+            // --- TRADUCCIÓN PARA LA ETIQUETA DEL TOGGLE DE ACCESIBILIDAD ---
+            var lblFocus = FindControl("lblEnhancedFocus") as Label;
+            if (lblFocus != null)
+            {
+                // Usamos la misma tag que en Admin.Master
+                lblFocus.Text = _traductor.Traducir("AdminMaster_Accesibilidad_Foco_Label");
+            }
+            // ----------------------------------------------------------------
         }
 
         protected void BtnLogout_Click(object sender, EventArgs e)
         {
+            // Logout (sin cambios)
             System.Web.Security.FormsAuthentication.SignOut();
             Session.Clear();
             Session.Abandon();
             Response.Redirect("~/Login.aspx");
         }
 
-        // --- EVENTO PARA EL BOTÓN DE BÚSQUEDA ---
         protected void btnBusquedaGlobal_Click(object sender, EventArgs e)
         {
+            // Búsqueda (sin cambios)
             if (!string.IsNullOrWhiteSpace(txtBusquedaGlobal.Text))
             {
-                // Codificamos el término de búsqueda para pasarlo de forma segura en la URL
                 Response.Redirect($"~/Busqueda.aspx?q={Server.UrlEncode(txtBusquedaGlobal.Text)}");
             }
         }

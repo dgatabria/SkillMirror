@@ -46,10 +46,12 @@
     <Compile Include="BEEncuesta.cs" />
     <Compile Include="BEEstadisticasGanancias.cs" />
     <Compile Include="BEFAQ.cs" />
+    <Compile Include="BEFeature.cs" />
     <Compile Include="BEIdioma.cs" />
     <Compile Include="BEMensajeria.cs" />
     <Compile Include="BENovedad.cs" />
     <Compile Include="BEPagos.cs" />
+    <Compile Include="BEPlan.cs" />
     <Compile Include="BEPublicidad.cs" />
     <Compile Include="BERankingEstadisticas.cs" />
     <Compile Include="BEResena.cs" />

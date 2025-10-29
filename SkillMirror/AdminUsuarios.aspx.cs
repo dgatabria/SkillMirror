@@ -1,8 +1,9 @@
-﻿using System;
+﻿using BE;
+using BLL;
+using System;
+using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using BE;
-using BLL;
 
 namespace SkillMirror
 {
@@ -40,7 +41,23 @@ namespace SkillMirror
         private void BindGrid()
         {
             BLLUsuario bll = new BLLUsuario();
-            gvUsuarios.DataSource = bll.ListarTodos();
+            BEUsuario _usuarioActual = bll.ListarObjeto(new BEUsuario { Email = HttpContext.Current.User.Identity.Name });
+            //gvUsuarios.DataSource = bll.ListarTodos();
+            if (_usuarioActual != null)
+            {
+                if (_usuarioActual.Empresa != null)
+                {
+                    if (_usuarioActual.Empresa.Codigo == 1)
+                    {
+                        gvUsuarios.DataSource = bll.ListarTodos();
+                    }
+                    else
+                    {
+                        gvUsuarios.DataSource = bll.ListarTodosPorEmpresa(_usuarioActual.Empresa);
+                    }
+                }
+            }
+                        
             gvUsuarios.DataBind();
         }
 

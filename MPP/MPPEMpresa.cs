@@ -97,8 +97,7 @@ namespace MPP
                     {
                         Codigo = Convert.ToInt32(dr["NivelServicio"]),
                         Nombre = dr["NivelServicioNombre"].ToString(),
-                        Gratis = Convert.ToBoolean(dr["Gratis"]),
-                        CostoMensual = Convert.ToDouble(dr["CostoMensual"])
+                        CostoMensual = Convert.ToDecimal(dr["PrecioMensual"])
                     };
                 }
                 return emp;

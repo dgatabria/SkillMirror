@@ -29,11 +29,23 @@
                             <asp:Label ID="lblNombre" runat="server" AssociatedControlID="txtNombre" CssClass="form-label">Nombre</asp:Label>
                             <asp:TextBox ID="txtNombre" runat="server" CssClass="form-control"></asp:TextBox>
                             <asp:RequiredFieldValidator ID="NombreValidator" runat="server" ControlToValidate="txtNombre" ForeColor="Red" Display="Dynamic" ValidationGroup="Registro" />
+                            <asp:RegularExpressionValidator ID="NombreRegexValidator" runat="server" 
+                                ControlToValidate="txtNombre"
+                                ValidationExpression="^[a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s'-]+$"
+                                ForeColor="Red" 
+                                Display="Dynamic" 
+                                ValidationGroup="Registro" />
                         </div>
                         <div class="col-md-6 mb-3">
                             <asp:Label ID="lblApellido" runat="server" AssociatedControlID="txtApellido" CssClass="form-label">Apellido</asp:Label>
                             <asp:TextBox ID="txtApellido" runat="server" CssClass="form-control"></asp:TextBox>
                             <asp:RequiredFieldValidator ID="ApellidoValidator" runat="server" ControlToValidate="txtApellido" ForeColor="Red" Display="Dynamic" ValidationGroup="Registro" />
+                            <asp:RegularExpressionValidator ID="ApellidoRegexValidator" runat="server" 
+                                    ControlToValidate="txtApellido"
+                                    ValidationExpression="^[a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s'-]+$"
+                                    ForeColor="Red" 
+                                    Display="Dynamic" 
+                                    ValidationGroup="Registro" />
                         </div>
                     </div>
 

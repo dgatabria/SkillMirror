@@ -23,7 +23,7 @@ namespace MPP
         /// <summary>
         /// Crea una nueva nota de crédito en la base de datos.
         /// </summary>
-        public string CrearNotaCredito(int idEmpresa, int idFacturaOrigen, double valor, int diasVigencia)
+        public string CrearNotaCredito(int idEmpresa, int idFacturaOrigen, decimal valor, int diasVigencia)
         {
             try
             {

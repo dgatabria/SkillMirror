@@ -98,6 +98,8 @@ namespace SkillMirror
 
         protected void BtnNuevaEncuesta_Click(object sender, EventArgs e)
         {
+            
+            
             Response.Redirect("EditarEncuesta.aspx");
         }
     }

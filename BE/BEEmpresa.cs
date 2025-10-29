@@ -27,6 +27,6 @@ namespace BE
         public int Codigo { get; set; }
         public string Nombre { get; set; }
         public bool Gratis { get; set; }
-        public double CostoMensual { get; set; }
+        public decimal CostoMensual { get; set; }
     }
 }

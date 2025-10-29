@@ -102,8 +102,10 @@ namespace SkillMirror
             // Cargar plan actual
             if (empresa.PlanContratado != null)
             {
-                string tagNombrePlan = $"catalogo_plan_{empresa.PlanContratado.Nombre.ToLower()}_nombre";
-                litNombrePlan.Text = _traductor.Traducir(tagNombrePlan);
+                //string tagNombrePlan = $"catalogo_plan_{empresa.PlanContratado.Nombre.ToLower()}_nombre";
+                
+                //litNombrePlan.Text = _traductor.Traducir(tagNombrePlan);
+                litNombrePlan.Text = empresa.PlanContratado.Nombre;
                 litProximoPago.Text = empresa.PlanContratado.CostoMensual.ToString("N2");
             }
             else

@@ -101,7 +101,7 @@ namespace SkillMirror
             {
                 int idEmpresa = Convert.ToInt32(ddlEmpresa.SelectedValue);
                 int idFactura = Convert.ToInt32(ddlFacturaOrigen.SelectedValue);
-                double valor = Convert.ToDouble(txtValor.Text);
+                decimal valor = Convert.ToDecimal(txtValor.Text);
                 int diasVigencia = Convert.ToInt32(txtDiasVigencia.Text);
 
                 string codigoNC = _bllFacturacion.CrearNotaCredito(idEmpresa, idFactura, valor, diasVigencia);

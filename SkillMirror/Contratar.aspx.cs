@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.UI.WebControls;
 
@@ -11,7 +12,8 @@ namespace SkillMirror
 {
     public partial class Contratar : BasePage
     {
-        private BLLNivelServicio _bllNivelServicio;
+        // --- CAMBIO 1: Usamos la nueva BLL de Planes ---
+        private BLLPlanes _bllPlanes;
         private BLLEmpresa _bllEmpresa;
         private BLLUsuario _bllUsuario;
         private BLLFacturacion _bllFacturacion;
@@ -24,7 +26,8 @@ namespace SkillMirror
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            _bllNivelServicio = new BLLNivelServicio();
+            // --- CAMBIO 2: Instanciamos la BLL nueva ---
+            _bllPlanes = new BLLPlanes();
             _bllEmpresa = new BLLEmpresa();
             _bllUsuario = new BLLUsuario();
             _bllFacturacion = new BLLFacturacion();
@@ -33,13 +36,12 @@ namespace SkillMirror
             {
                 if (!int.TryParse(Request.QueryString["planId"], out int planId))
                 {
-                    Response.Redirect("~/Planes.aspx");
+                    // Redirigimos a la nueva página de catálogo de planes
+                    Response.Redirect("~/Catalogo.aspx");
                     return;
                 }
                 CargarDatosDePagina(planId);
 
-                // --- SOLUCIÓN DEFINITIVA ---
-                // Adjuntamos los eventos de JavaScript desde el servidor para garantizar que se rendericen correctamente.
                 chkTarjeta.Attributes.Add("onclick", $"togglePaymentPanel(this, '{pnlTarjetaCredito.ClientID}')");
                 chkNotaCredito.Attributes.Add("onclick", $"togglePaymentPanel(this, '{pnlNotaCreditoDetalle.ClientID}')");
                 chkTransferencia.Attributes.Add("onclick", $"togglePaymentPanel(this, '{pnlTransferencia.ClientID}')");
@@ -48,30 +50,24 @@ namespace SkillMirror
 
         public override void ActualizarTraducciones()
         {
-            // Asignamos las traducciones a todas las etiquetas, incluyendo los CheckBoxes
             this.Title = _traductor.Traducir("Contratar_Page_Title");
             headerResumen.InnerText = _traductor.Traducir("Contratar_Header_Resumen");
             lblPlanContratado.Text = _traductor.Traducir("Contratar_Label_PlanContratado");
             lblTotalAPagar.Text = _traductor.Traducir("Contratar_Label_TotalAPagar");
             headerDatosEmpresa.InnerText = _traductor.Traducir("Contratar_Header_DatosEmpresa");
             headerMedioPago.InnerText = _traductor.Traducir("Contratar_Header_MedioPago");
-
             chkTarjeta.Text = _traductor.Traducir("Contratar_Check_Tarjeta");
             chkNotaCredito.Text = _traductor.Traducir("Contratar_Check_NotaCredito");
             chkTransferencia.Text = _traductor.Traducir("Contratar_Check_Transferencia");
-
             lblHeaderTarjeta.Text = _traductor.Traducir("Contratar_Header_Tarjeta");
             rfvNombreTitular.ErrorMessage = _traductor.Traducir("Error_Campo_Requerido");
             rfvNumeroTarjeta.ErrorMessage = _traductor.Traducir("Error_Campo_Requerido");
             rfvExpiracion.ErrorMessage = _traductor.Traducir("Error_Campo_Requerido");
             revExpiracion.ErrorMessage = _traductor.Traducir("Error_Formato_Invalido");
             rfvCVV.ErrorMessage = _traductor.Traducir("Error_Campo_Requerido");
-
             lblHeaderNC.Text = _traductor.Traducir("Contratar_Header_NC");
-
             lblHeaderTransferencia.Text = _traductor.Traducir("Contratar_Header_Transferencia");
             rfvComprobante.ErrorMessage = _traductor.Traducir("Error_Campo_Requerido");
-
             btnConfirmarPago.Text = _traductor.Traducir("Contratar_Boton_Confirmar");
             rfvNombreEmpresa.ErrorMessage = _traductor.Traducir("Error_Campo_Requerido");
             rfvCUIT.ErrorMessage = _traductor.Traducir("Error_Campo_Requerido");
@@ -84,7 +80,8 @@ namespace SkillMirror
 
         private void CargarDatosDePagina(int planId)
         {
-            var planSeleccionado = _bllNivelServicio.ObtenerPorId(planId);
+            // --- CAMBIO 3: Obtenemos el plan desde la BLL nueva ---
+            var planSeleccionado = _bllPlanes.ListarPorID(planId);
             if (planSeleccionado == null)
             {
                 lblError.Text = "El plan seleccionado no es válido.";
@@ -93,9 +90,11 @@ namespace SkillMirror
                 return;
             }
 
+            // Guardamos el plan nuevo (BEPlan) en el ViewState
             ViewState["PlanSeleccionado"] = planSeleccionado;
             litPlanNombre.Text = planSeleccionado.Nombre;
-            litPlanPrecio.Text = planSeleccionado.CostoMensual.ToString("F2", CultureInfo.InvariantCulture);
+            // Usamos la propiedad correcta del nuevo objeto BEPlan
+            litPlanPrecio.Text = planSeleccionado.PrecioMensual.ToString("F2", CultureInfo.InvariantCulture);
 
             var usuarioCompleto = _bllUsuario.ListarObjeto(new BEUsuario { Email = HttpContext.Current.User.Identity.Name });
 
@@ -131,7 +130,6 @@ namespace SkillMirror
                 return;
             }
 
-            // Habilitamos los validadores solo si el medio de pago está seleccionado
             rfvNombreTitular.Enabled = rfvNumeroTarjeta.Enabled = rfvExpiracion.Enabled = rfvCVV.Enabled = revExpiracion.Enabled = chkTarjeta.Checked;
             rfvComprobante.Enabled = chkTransferencia.Checked;
 
@@ -139,7 +137,8 @@ namespace SkillMirror
             Page.Validate("Pago");
             if (!Page.IsValid) return;
 
-            var plan = (BENivelServicio)ViewState["PlanSeleccionado"];
+            // --- CAMBIO 4: Obtenemos el BEPlan del ViewState ---
+            var plan = (BEPlan)ViewState["PlanSeleccionado"];
             var usuarioActual = _bllUsuario.ListarObjeto(new BEUsuario { Email = HttpContext.Current.User.Identity.Name });
 
             try
@@ -147,25 +146,42 @@ namespace SkillMirror
                 int idEmpresaFinal = (usuarioActual.Empresa != null) ? usuarioActual.Empresa.Codigo : 0;
                 if (pnlDatosEmpresa.Visible)
                 {
+                    if (!Regex.IsMatch(txtCUIT.Text.Trim(), @"^\d{2}-\d{8}-\d{1}$"))
+                    {
+                        // Considera usar un sistema de excepciones más específico o devolver códigos de error.
+                        throw new ArgumentException("El formato del CUIT no es válido (debe ser XX-XXXXXXXX-X).");
+                    }
                     var nuevaEmpresa = new BEEmpresa { Codigo = 0, Nombre = txtNombreEmpresa.Text.Trim(), CUIT = txtCUIT.Text.Trim(), Domicilio = txtDomicilio.Text.Trim(), Telefono = txtTelefono.Text.Trim() };
                     idEmpresaFinal = _bllEmpresa.Guardar(nuevaEmpresa);
                     if (idEmpresaFinal <= 0) throw new Exception("No se pudo registrar la nueva empresa.");
                 }
 
+                
+                var planParaFacturacion = new BENivelServicio
+                {
+                    Codigo = plan.ID,
+                    Nombre = plan.Nombre,
+                    CostoMensual = plan.PrecioMensual
+                };
+
                 var pago = new BEPago
                 {
                     Empresa = new BEEmpresa { Codigo = idEmpresaFinal },
                     Usuario = usuarioActual,
-                    Plan = plan
+                    Plan = planParaFacturacion 
                 };
 
                 if (chkTarjeta.Checked)
                 {
+                    if (Convert.ToDecimal(txtMontoTarjeta.Text) < plan.PrecioMensual)
+                        throw new Exception("El pago no cubre el monto de suscripcion");
                     pago.Tarjeta = new BETarjetaCredito { Titular = txtNombreTitular.Text, Numero = txtNumeroTarjeta.Text, Expiracion = txtExpiracion.Text, CVV = txtCVV.Text, MontoAbonado = double.Parse(txtMontoTarjeta.Text, CultureInfo.InvariantCulture) };
                 }
 
                 if (chkTransferencia.Checked)
                 {
+                    if (Convert.ToDecimal(txtMontoTransferencia.Text) < plan.PrecioMensual)
+                        throw new Exception("La transferencia no cubre el monto de suscripcion");
                     pago.Transferencia = new BETransferencia { CodigoComprobante = txtComprobanteTransferencia.Text, MontoAbonado = double.Parse(txtMontoTransferencia.Text, CultureInfo.InvariantCulture) };
                 }
 
@@ -191,7 +207,8 @@ namespace SkillMirror
                 if (!_bllUsuario.Guardar(usuarioActual)) throw new Exception("No se pudo actualizar la empresa del usuario.");
                 _bllUsuario.HacerAdministrador(usuarioActual);
 
-                EnviarEmailConfirmacion(usuarioActual, plan, idFactura);
+                // Pasamos el objeto convertido al email
+                EnviarEmailConfirmacion(usuarioActual, planParaFacturacion, idFactura);
                 Session["Usuario"] = _bllUsuario.ListarObjeto(usuarioActual);
                 Response.Redirect($"~/ContratacionExitosa.aspx?facturaId={idFactura}");
             }
@@ -219,4 +236,3 @@ namespace SkillMirror
         }
     }
 }
-

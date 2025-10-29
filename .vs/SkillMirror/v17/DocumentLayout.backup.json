@@ -3,639 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\be\\beestadisticasganancias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\beestadisticasganancias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\dashboardganancias.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\dashboardganancias.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\dashboardganancias.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\dashboardganancias.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\miverconversacion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\miverconversacion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\miverconversacion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\miverconversacion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\adminverconversacion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminverconversacion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\adminverconversacion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminverconversacion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\mismensajes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\mismensajes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\mpp\\mppmensajeria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppmensajeria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\adminconversaciones.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminconversaciones.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\nuevomensaje.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\nuevomensaje.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\nuevomensaje.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\nuevomensaje.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\mismensajes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\mismensajes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\adminconversaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminconversaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\bll\\bllmensajeria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllmensajeria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\be\\bemensajeria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\bemensajeria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllrbac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllrbac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mpprbac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mpprbac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\rbac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\rbac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\busqueda.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\busqueda.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dgata\\Downloads\\Site.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48346E72-A54C-4217-B678-3761D0DAE39D}|DAL\\DAL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\dal\\acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48346E72-A54C-4217-B678-3761D0DAE39D}|DAL\\DAL.csproj|solutionrelative:dal\\acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\resultadosencuesta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\resultadosencuesta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\resetpassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\resetpassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\resenas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\resenas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\recuperarclave.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\recuperarclave.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\rankingresenas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\rankingresenas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\miperfil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\miperfil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarusuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarusuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarpublicidad.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarpublicidad.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarnovedad.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarnovedad.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarfaq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarfaq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarencuesta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarencuesta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarempresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarempresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\contratar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\contratar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\contratacionexitosa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\contratacionexitosa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\consola.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\consola.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\catalogo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\catalogo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\busqueda.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\busqueda.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\bitacora.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\bitacora.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\backup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\backup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminusuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminusuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminroles.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminroles.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminresenas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminresenas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminpublicidad.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminpublicidad.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminnovedades.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminnovedades.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminnotascredito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminnotascredito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminidiomas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminidiomas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminfaqs.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminfaqs.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminencuestas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminencuestas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminempresas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminempresas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllbusqueda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllbusqueda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppbusqueda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppbusqueda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\beresultadobusqueda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\beresultadobusqueda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\miperfil.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\miperfil.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminencuestas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminencuestas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\beencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\beencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\bepagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\bepagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminnotascredito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminnotascredito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\contratacionexitosa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\contratacionexitosa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppcrypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppcrypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\contratar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\contratar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\mpp\\mppnivelservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppnivelservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\bll\\bllfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\be\\beempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\beempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllnivelservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllnivelservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|c:\\users\\dgata\\source\\repos\\skillmirror\\skillmirror\\adminnotascredito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminnotascredito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppnivelservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppnivelservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\beempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\beempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\catalogo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\catalogo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\beusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\beusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\backup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\backup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\miperfil.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\miperfil.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\beplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\beplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppplanes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppplanes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\bebackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\bebackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminplanes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminplanes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarpublicidad.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarpublicidad.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminplanes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminplanes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminpublicidad.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminpublicidad.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarplan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarplan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllpublicidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllpublicidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarplan.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarplan.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mpppublicidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mpppublicidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminencuestas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminencuestas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\controles\\bannerpublicidad.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\controles\\bannerpublicidad.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\controles\\bannerpublicidad.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\controles\\bannerpublicidad.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\bepublicidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\bepublicidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\faqs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\faqs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\faqs.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\faqs.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarfaq.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarfaq.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\befaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\befaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminfaqs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminfaqs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminidiomas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminidiomas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\rankingresenas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\rankingresenas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllresena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllresena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppresena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppresena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\berankingestadisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\berankingestadisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\resultadosencuesta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\resultadosencuesta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\beresultadoencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\beresultadoencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\responderencuesta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\responderencuesta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\responderencuesta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\responderencuesta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarencuesta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarencuesta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\novedades.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\novedades.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\novedades.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\novedades.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\novedadesservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\novedadesservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarnovedad.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarnovedad.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminnovedades.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminnovedades.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllnovedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllnovedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppnovedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppnovedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\benovedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\benovedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\beidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\beidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mpplogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mpplogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\resenasservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\resenasservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\resenas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\resenas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\resetpassword.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\resetpassword.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\recuperarclave.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\recuperarclave.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\quienessomos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\quienessomos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\quienessomos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\quienessomos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\politicadeprivacidad.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\politicadeprivacidad.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\politicadeprivacidad.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\politicadeprivacidad.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarusuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarusuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\editarempresa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\editarempresa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\contactenos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\contactenos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\contactenos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\contactenos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\contact.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\contact.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\consola.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\consola.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\bitacora.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\bitacora.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminencuestas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminencuestas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminusuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminusuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminroles.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminroles.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminresenas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminresenas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\adminempresas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\adminempresas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\catalogo.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\catalogo.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\activarcuenta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\activarcuenta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\traductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\traductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\beresena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\beresena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\activarcuenta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\activarcuenta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\itraducible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\itraducible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\mpp\\mppbitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C555D4-DE32-4CB9-9C4C-F603B07876F5}|MPP\\MPP.csproj|solutionrelative:mpp\\mppbitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\skillmirror\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7582A4E-7E1D-48D9-9C9E-6DCB352B9A01}|SkillMirror\\SkillMirror.csproj|solutionrelative:skillmirror\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllbitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllbitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\be\\entradabitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F06532-5B79-4F48-92FF-62C7A953F00E}|BE\\BE.csproj|solutionrelative:be\\entradabitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|C:\\Users\\dgata\\source\\repos\\SkillMirror\\bll\\bllogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67CA9EC-65BB-4474-BBA8-BE693F6FFFE5}|BLL\\BLL.csproj|solutionrelative:bll\\bllogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -645,150 +106,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "MPPEncuesta.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPEncuesta.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPEncuesta.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPEncuesta.cs",
-              "RelativeToolTip": "MPP\\MPPEncuesta.cs",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAMwBoBAAAUAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "AdminUsuarios.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminUsuarios.aspx.cs",
+              "RelativeDocumentMoniker": "SkillMirror\\AdminUsuarios.aspx.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminUsuarios.aspx.cs",
+              "RelativeToolTip": "SkillMirror\\AdminUsuarios.aspx.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T14:57:43.688Z",
+              "WhenOpened": "2025-10-21T15:24:57.889Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Site.Master.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Site.Master.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Site.Master.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Site.Master.cs",
-              "RelativeToolTip": "SkillMirror\\Site.Master.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAmwGgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T23:48:27.654Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 0,
               "Title": "Registro.aspx.cs",
               "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Registro.aspx.cs",
               "RelativeDocumentMoniker": "SkillMirror\\Registro.aspx.cs",
               "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Registro.aspx.cs",
               "RelativeToolTip": "SkillMirror\\Registro.aspx.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAmwIYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDUAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T20:19:10.101Z",
-              "IsPinned": true
+              "WhenOpened": "2025-10-25T21:40:02.043Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Login.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Login.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Login.aspx.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAmwGMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T21:10:04.835Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 128,
-              "Title": "ResetPassword.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResetPassword.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\ResetPassword.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResetPassword.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\ResetPassword.aspx.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAkwGIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T22:23:05.7Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "MiPerfil.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MiPerfil.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\MiPerfil.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MiPerfil.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\MiPerfil.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T11:21:52.536Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "Contratar.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contratar.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Contratar.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contratar.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Contratar.aspx.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAgwLoAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T17:13:05.355Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "BEPagos.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEPagos.cs",
-              "RelativeDocumentMoniker": "BE\\BEPagos.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEPagos.cs",
-              "RelativeToolTip": "BE\\BEPagos.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAzwFEAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T00:59:32.138Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Default.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Default.aspx.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAkwHAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T16:55:15.006Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Site.Master",
-              "RelativeDocumentMoniker": "SkillMirror\\Site.Master",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Site.Master",
-              "RelativeToolTip": "SkillMirror\\Site.Master",
+              "DocumentIndex": 1,
+              "Title": "Registro.aspx",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Registro.aspx",
+              "RelativeDocumentMoniker": "SkillMirror\\Registro.aspx",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Registro.aspx",
+              "RelativeToolTip": "SkillMirror\\Registro.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-30T19:44:46.655Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\dgata\\Downloads\\Site.Master",
-              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\Site.Master",
-              "ToolTip": "C:\\Users\\dgata\\Downloads\\Site.Master",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\Site.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-13T01:13:16.752Z",
-              "IsPinned": true
+              "WhenOpened": "2025-10-25T21:37:31.383Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -824,137 +181,97 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Admin.Master.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Admin.Master.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Admin.Master.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Admin.Master.cs",
-              "RelativeToolTip": "SkillMirror\\Admin.Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T21:33:24.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DashboardGanancias.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\DashboardGanancias.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\DashboardGanancias.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\DashboardGanancias.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\DashboardGanancias.aspx.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAMwDMAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T23:58:55.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DashboardGanancias.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\DashboardGanancias.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\DashboardGanancias.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\DashboardGanancias.aspx",
-              "RelativeToolTip": "SkillMirror\\DashboardGanancias.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-17T23:58:41.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BEEstadisticasGanancias.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEEstadisticasGanancias.cs",
-              "RelativeDocumentMoniker": "BE\\BEEstadisticasGanancias.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEEstadisticasGanancias.cs",
-              "RelativeToolTip": "BE\\BEEstadisticasGanancias.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Title": "MPPNivelServicio.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPNivelServicio.cs",
+              "RelativeDocumentMoniker": "MPP\\MPPNivelServicio.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPNivelServicio.cs",
+              "RelativeToolTip": "MPP\\MPPNivelServicio.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwB0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T23:58:00.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MPPFacturacion.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPFacturacion.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPFacturacion.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPFacturacion.cs",
-              "RelativeToolTip": "MPP\\MPPFacturacion.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAiwE4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T01:01:54.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BLLFacturacion.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLFacturacion.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLFacturacion.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLFacturacion.cs",
-              "RelativeToolTip": "BLL\\BLLFacturacion.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAcwEQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T01:06:26.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MPPMensajeria.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPMensajeria.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPMensajeria.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPMensajeria.cs",
-              "RelativeToolTip": "MPP\\MPPMensajeria.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAiwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:55:14.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MiVerConversacion.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MiVerConversacion.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\MiVerConversacion.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MiVerConversacion.aspx",
-              "RelativeToolTip": "SkillMirror\\MiVerConversacion.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-17T00:39:49.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminVerConversacion.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminVerConversacion.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminVerConversacion.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminVerConversacion.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\AdminVerConversacion.aspx.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwFIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T00:16:31.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MiVerConversacion.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MiVerConversacion.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\MiVerConversacion.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MiVerConversacion.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\MiVerConversacion.aspx.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAuwEEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T00:40:02.574Z",
+              "WhenOpened": "2025-10-25T19:24:23.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "BEEmpresa.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEEmpresa.cs",
+              "RelativeDocumentMoniker": "BE\\BEEmpresa.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEEmpresa.cs",
+              "RelativeToolTip": "BE\\BEEmpresa.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA5wBsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T18:36:46.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminNotasCredito.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminNotasCredito.aspx.cs",
+              "RelativeDocumentMoniker": "SkillMirror\\AdminNotasCredito.aspx.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminNotasCredito.aspx.cs",
+              "RelativeToolTip": "SkillMirror\\AdminNotasCredito.aspx.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAwGMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T16:38:47.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contratar.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contratar.aspx.cs",
+              "RelativeDocumentMoniker": "SkillMirror\\Contratar.aspx.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contratar.aspx.cs",
+              "RelativeToolTip": "SkillMirror\\Contratar.aspx.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAALsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T15:24:46.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BLLFacturacion.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLFacturacion.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLFacturacion.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLFacturacion.cs",
+              "RelativeToolTip": "BLL\\BLLFacturacion.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAQwKYAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T20:09:42.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MPPEMpresa.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPEMpresa.cs",
+              "RelativeDocumentMoniker": "MPP\\MPPEMpresa.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPEMpresa.cs",
+              "RelativeToolTip": "MPP\\MPPEMpresa.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAwGMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T21:49:04.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MPPPlanes.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPPlanes.cs",
+              "RelativeDocumentMoniker": "MPP\\MPPPlanes.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPPlanes.cs",
+              "RelativeToolTip": "MPP\\MPPPlanes.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAkwLwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T23:26:57.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Admin.Master",
               "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Admin.Master",
               "RelativeDocumentMoniker": "SkillMirror\\Admin.Master",
@@ -962,575 +279,123 @@
               "RelativeToolTip": "SkillMirror\\Admin.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-30T21:30:07.028Z",
+              "WhenOpened": "2025-10-22T01:14:54.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Site.Master.cs",
+              "RelativeDocumentMoniker": "SkillMirror\\Site.Master.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Site.Master.cs",
+              "RelativeToolTip": "SkillMirror\\Site.Master.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAQwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T19:55:45.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminPlanes.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminPlanes.aspx.cs",
+              "RelativeDocumentMoniker": "SkillMirror\\AdminPlanes.aspx.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminPlanes.aspx.cs",
+              "RelativeToolTip": "SkillMirror\\AdminPlanes.aspx.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwD0AAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T23:40:20.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MPPFacturacion.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPFacturacion.cs",
+              "RelativeDocumentMoniker": "MPP\\MPPFacturacion.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPFacturacion.cs",
+              "RelativeToolTip": "MPP\\MPPFacturacion.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAlwBgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T21:51:13.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AdminVerConversacion.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminVerConversacion.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminVerConversacion.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminVerConversacion.aspx",
-              "RelativeToolTip": "SkillMirror\\AdminVerConversacion.aspx",
+              "Title": "BLLEmpresa.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLEmpresa.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLEmpresa.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLEmpresa.cs",
+              "RelativeToolTip": "BLL\\BLLEmpresa.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAowF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T20:09:30.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminPlanes.aspx",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminPlanes.aspx",
+              "RelativeDocumentMoniker": "SkillMirror\\AdminPlanes.aspx",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminPlanes.aspx",
+              "RelativeToolTip": "SkillMirror\\AdminPlanes.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-17T00:16:14.651Z",
+              "WhenOpened": "2025-10-21T23:39:44.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "MisMensajes.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MisMensajes.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\MisMensajes.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MisMensajes.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\MisMensajes.aspx.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAIAywC4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T00:38:59.84Z",
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Site.Master",
+              "RelativeDocumentMoniker": "SkillMirror\\Site.Master",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Site.Master",
+              "RelativeToolTip": "SkillMirror\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-24T19:55:35.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MisMensajes.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MisMensajes.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\MisMensajes.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MisMensajes.aspx",
-              "RelativeToolTip": "SkillMirror\\MisMensajes.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-17T00:38:29.168Z",
-              "EditorCaption": ""
+              "DocumentIndex": 12,
+              "Title": "Admin.Master.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Admin.Master.cs",
+              "RelativeDocumentMoniker": "SkillMirror\\Admin.Master.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Admin.Master.cs",
+              "RelativeToolTip": "SkillMirror\\Admin.Master.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAgwAkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T01:07:46.175Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "NuevoMensaje.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\NuevoMensaje.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\NuevoMensaje.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\NuevoMensaje.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\NuevoMensaje.aspx.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAmwD4AAAABAAAAAAAAAA==",
+              "Title": "MiPerfil.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MiPerfil.aspx.cs",
+              "RelativeDocumentMoniker": "SkillMirror\\MiPerfil.aspx.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MiPerfil.aspx.cs",
+              "RelativeToolTip": "SkillMirror\\MiPerfil.aspx.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T00:40:52.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AdminConversaciones.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminConversaciones.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminConversaciones.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminConversaciones.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\AdminConversaciones.aspx.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwB0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T00:15:32.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T22:07:31.64Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "NuevoMensaje.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\NuevoMensaje.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\NuevoMensaje.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\NuevoMensaje.aspx",
-              "RelativeToolTip": "SkillMirror\\NuevoMensaje.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-17T00:40:37.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AdminConversaciones.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminConversaciones.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminConversaciones.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminConversaciones.aspx",
-              "RelativeToolTip": "SkillMirror\\AdminConversaciones.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-17T00:15:17.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BLLMensajeria.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLMensajeria.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLMensajeria.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLMensajeria.cs",
-              "RelativeToolTip": "BLL\\BLLMensajeria.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAmwFQAAAABAAAAAAAAAA==",
+              "Title": "BEPlan.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEPlan.cs",
+              "RelativeDocumentMoniker": "BE\\BEPlan.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEPlan.cs",
+              "RelativeToolTip": "BE\\BEPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T00:00:13.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BEMensajeria.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEMensajeria.cs",
-              "RelativeDocumentMoniker": "BE\\BEMensajeria.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEMensajeria.cs",
-              "RelativeToolTip": "BE\\BEMensajeria.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA3wC0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:53:09.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BLLRBAC.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLRBAC.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLRBAC.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLRBAC.cs",
-              "RelativeToolTip": "BLL\\BLLRBAC.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAA2wFEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T22:31:42.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RBAC.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\RBAC.cs",
-              "RelativeDocumentMoniker": "BE\\RBAC.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\RBAC.cs",
-              "RelativeToolTip": "BE\\RBAC.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAuwIYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T21:28:19.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "EditarUsuario.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarUsuario.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarUsuario.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarUsuario.aspx",
-              "RelativeToolTip": "SkillMirror\\EditarUsuario.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-02T02:02:11.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Login.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Login.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Login.aspx",
-              "RelativeToolTip": "SkillMirror\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-06T01:29:31.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Busqueda.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Busqueda.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Busqueda.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Busqueda.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Busqueda.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAD4vwwAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T00:23:28.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T23:25:51.694Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "MPPRBAC.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPRBAC.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPRBAC.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPRBAC.cs",
-              "RelativeToolTip": "MPP\\MPPRBAC.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T22:17:23.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Web.config",
-              "RelativeDocumentMoniker": "SkillMirror\\Web.config",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Web.config",
-              "RelativeToolTip": "SkillMirror\\Web.config",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAiwEMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-08-30T19:46:15.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "RankingResenas.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\RankingResenas.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\RankingResenas.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\RankingResenas.aspx",
-              "RelativeToolTip": "SkillMirror\\RankingResenas.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-05T17:34:57.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "MiPerfil.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MiPerfil.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\MiPerfil.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\MiPerfil.aspx",
-              "RelativeToolTip": "SkillMirror\\MiPerfil.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-12T16:07:40.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Resenas.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Resenas.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Resenas.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Resenas.aspx",
-              "RelativeToolTip": "SkillMirror\\Resenas.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-07T20:32:12.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ResetPassword.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResetPassword.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\ResetPassword.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResetPassword.aspx",
-              "RelativeToolTip": "SkillMirror\\ResetPassword.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-01T22:22:50.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Acceso.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\DAL\\Acceso.cs",
-              "RelativeDocumentMoniker": "DAL\\Acceso.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\DAL\\Acceso.cs",
-              "RelativeToolTip": "DAL\\Acceso.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAiwKUAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T13:27:15.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "RecuperarClave.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\RecuperarClave.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\RecuperarClave.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\RecuperarClave.aspx",
-              "RelativeToolTip": "SkillMirror\\RecuperarClave.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-01T12:16:01.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ResultadosEncuesta.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResultadosEncuesta.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\ResultadosEncuesta.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResultadosEncuesta.aspx",
-              "RelativeToolTip": "SkillMirror\\ResultadosEncuesta.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-05T17:12:44.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Registro.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Registro.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Registro.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Registro.aspx",
-              "RelativeToolTip": "SkillMirror\\Registro.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-30T20:19:41.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "EditarPublicidad.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarPublicidad.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarPublicidad.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarPublicidad.aspx",
-              "RelativeToolTip": "SkillMirror\\EditarPublicidad.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-06T01:29:05.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "EditarNovedad.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarNovedad.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarNovedad.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarNovedad.aspx",
-              "RelativeToolTip": "SkillMirror\\EditarNovedad.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-29T00:41:23.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "EditarFAQ.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarFAQ.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarFAQ.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarFAQ.aspx",
-              "RelativeToolTip": "SkillMirror\\EditarFAQ.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-05T23:37:30.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "EditarEncuesta.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarEncuesta.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarEncuesta.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarEncuesta.aspx",
-              "RelativeToolTip": "SkillMirror\\EditarEncuesta.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-05T15:29:41.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "EditarEmpresa.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarEmpresa.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarEmpresa.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarEmpresa.aspx",
-              "RelativeToolTip": "SkillMirror\\EditarEmpresa.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-03T19:28:48.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Default.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Default.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Default.aspx",
-              "RelativeToolTip": "SkillMirror\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-30T19:16:56.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Contratar.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contratar.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Contratar.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contratar.aspx",
-              "RelativeToolTip": "SkillMirror\\Contratar.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-06T16:59:53.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ContratacionExitosa.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ContratacionExitosa.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\ContratacionExitosa.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ContratacionExitosa.aspx",
-              "RelativeToolTip": "SkillMirror\\ContratacionExitosa.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-12T17:11:39.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Consola.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Consola.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Consola.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Consola.aspx",
-              "RelativeToolTip": "SkillMirror\\Consola.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-30T21:31:03.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Catalogo.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Catalogo.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Catalogo.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Catalogo.aspx",
-              "RelativeToolTip": "SkillMirror\\Catalogo.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-30T20:53:45.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Busqueda.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Busqueda.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Busqueda.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Busqueda.aspx",
-              "RelativeToolTip": "SkillMirror\\Busqueda.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-13T00:23:14.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Bitacora.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Bitacora.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Bitacora.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Bitacora.aspx",
-              "RelativeToolTip": "SkillMirror\\Bitacora.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-03T01:18:08.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Backup.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Backup.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Backup.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Backup.aspx",
-              "RelativeToolTip": "SkillMirror\\Backup.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-06T02:23:42.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "AdminUsuarios.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminUsuarios.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminUsuarios.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminUsuarios.aspx",
-              "RelativeToolTip": "SkillMirror\\AdminUsuarios.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-02T01:58:35.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "AdminRoles.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminRoles.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminRoles.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminRoles.aspx",
-              "RelativeToolTip": "SkillMirror\\AdminRoles.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-04T00:06:28.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "AdminResenas.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminResenas.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminResenas.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminResenas.aspx",
-              "RelativeToolTip": "SkillMirror\\AdminResenas.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-07T20:47:18.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "AdminPublicidad.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminPublicidad.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminPublicidad.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminPublicidad.aspx",
-              "RelativeToolTip": "SkillMirror\\AdminPublicidad.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-06T01:27:03.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "AdminNovedades.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminNovedades.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminNovedades.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminNovedades.aspx",
-              "RelativeToolTip": "SkillMirror\\AdminNovedades.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-29T00:40:17.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "AdminNotasCredito.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminNotasCredito.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminNotasCredito.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminNotasCredito.aspx",
-              "RelativeToolTip": "SkillMirror\\AdminNotasCredito.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-12T14:17:36.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "AdminIdiomas.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminIdiomas.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminIdiomas.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminIdiomas.aspx",
-              "RelativeToolTip": "SkillMirror\\AdminIdiomas.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-05T17:46:34.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "AdminFAQs.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminFAQs.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminFAQs.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminFAQs.aspx",
-              "RelativeToolTip": "SkillMirror\\AdminFAQs.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-05T23:36:26.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
               "Title": "AdminEncuestas.aspx",
               "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminEncuestas.aspx",
               "RelativeDocumentMoniker": "SkillMirror\\AdminEncuestas.aspx",
@@ -1538,1101 +403,43 @@
               "RelativeToolTip": "SkillMirror\\AdminEncuestas.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-05T15:27:45.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T00:34:42.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "AdminEmpresas.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminEmpresas.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminEmpresas.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminEmpresas.aspx",
-              "RelativeToolTip": "SkillMirror\\AdminEmpresas.aspx",
+              "DocumentIndex": 19,
+              "Title": "EditarPlan.aspx",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarPlan.aspx",
+              "RelativeDocumentMoniker": "SkillMirror\\EditarPlan.aspx",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarPlan.aspx",
+              "RelativeToolTip": "SkillMirror\\EditarPlan.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-03T19:27:53.14Z"
+              "WhenOpened": "2025-10-22T01:06:18.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "BEResultadoBusqueda.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEResultadoBusqueda.cs",
-              "RelativeDocumentMoniker": "BE\\BEResultadoBusqueda.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEResultadoBusqueda.cs",
-              "RelativeToolTip": "BE\\BEResultadoBusqueda.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:24:53.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "MPPBusqueda.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPBusqueda.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPBusqueda.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPBusqueda.cs",
-              "RelativeToolTip": "MPP\\MPPBusqueda.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:25:22.803Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "BLLBusqueda.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLBusqueda.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLBusqueda.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLBusqueda.cs",
-              "RelativeToolTip": "BLL\\BLLBusqueda.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:25:51.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 22,
               "Title": "AdminEncuestas.aspx.cs",
               "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminEncuestas.aspx.cs",
               "RelativeDocumentMoniker": "SkillMirror\\AdminEncuestas.aspx.cs",
               "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminEncuestas.aspx.cs",
               "RelativeToolTip": "SkillMirror\\AdminEncuestas.aspx.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAAF8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T15:28:01.546Z"
+              "WhenOpened": "2025-10-22T00:35:12.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "BEEncuesta.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEEncuesta.cs",
-              "RelativeDocumentMoniker": "BE\\BEEncuesta.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEEncuesta.cs",
-              "RelativeToolTip": "BE\\BEEncuesta.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAA1wDoAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "EditarPlan.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarPlan.aspx.cs",
+              "RelativeDocumentMoniker": "SkillMirror\\EditarPlan.aspx.cs",
+              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarPlan.aspx.cs",
+              "RelativeToolTip": "SkillMirror\\EditarPlan.aspx.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAwHAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T14:56:02.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "BLLEncuesta.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLEncuesta.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLEncuesta.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLEncuesta.cs",
-              "RelativeToolTip": "BLL\\BLLEncuesta.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T14:58:47.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "ContratacionExitosa.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ContratacionExitosa.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\ContratacionExitosa.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ContratacionExitosa.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\ContratacionExitosa.aspx.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T17:12:02.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "AdminNotasCredito.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminNotasCredito.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminNotasCredito.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminNotasCredito.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\AdminNotasCredito.aspx.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAswFIAAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T14:17:50.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "MPPCrypto.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPCrypto.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPCrypto.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPCrypto.cs",
-              "RelativeToolTip": "MPP\\MPPCrypto.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowBoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T19:52:13.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "MPPEMpresa.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPEMpresa.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPEMpresa.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPEMpresa.cs",
-              "RelativeToolTip": "MPP\\MPPEMpresa.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T19:23:30.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
-              "Title": "MPPNivelServicio.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPNivelServicio.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPNivelServicio.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPNivelServicio.cs",
-              "RelativeToolTip": "MPP\\MPPNivelServicio.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T15:02:32.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "BLLEmpresa.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLEmpresa.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLEmpresa.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLEmpresa.cs",
-              "RelativeToolTip": "BLL\\BLLEmpresa.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAawBkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T19:26:48.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "BLLUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLUsuario.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLUsuario.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLUsuario.cs",
-              "RelativeToolTip": "BLL\\BLLUsuario.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwC0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T13:10:49.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "MPPUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPUsuario.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPUsuario.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPUsuario.cs",
-              "RelativeToolTip": "MPP\\MPPUsuario.cs",
-              "ViewState": "AgIAAB8BAAAAAAAAAAAAwDcBAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:54:08.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "BEEmpresa.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEEmpresa.cs",
-              "RelativeDocumentMoniker": "BE\\BEEmpresa.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEEmpresa.cs",
-              "RelativeToolTip": "BE\\BEEmpresa.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T19:21:05.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "Catalogo.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Catalogo.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Catalogo.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Catalogo.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Catalogo.aspx.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAgwJEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:14:12.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "BLLNivelServicio.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLNivelServicio.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLNivelServicio.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLNivelServicio.cs",
-              "RelativeToolTip": "BLL\\BLLNivelServicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAASwBEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T15:16:52.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "BEUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEUsuario.cs",
-              "RelativeDocumentMoniker": "BE\\BEUsuario.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEUsuario.cs",
-              "RelativeToolTip": "BE\\BEUsuario.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwCQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T17:38:42.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "Backup.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Backup.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Backup.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Backup.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Backup.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T02:24:03.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "BLLBackup.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLBackup.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLBackup.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLBackup.cs",
-              "RelativeToolTip": "BLL\\BLLBackup.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T02:23:06.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "MPPBackup.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPBackup.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPBackup.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPBackup.cs",
-              "RelativeToolTip": "MPP\\MPPBackup.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAgwGAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T02:22:33.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 87,
-              "Title": "BEBackup.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEBackup.cs",
-              "RelativeDocumentMoniker": "BE\\BEBackup.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEBackup.cs",
-              "RelativeToolTip": "BE\\BEBackup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T02:21:59.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 88,
-              "Title": "EditarPublicidad.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarPublicidad.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarPublicidad.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarPublicidad.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\EditarPublicidad.aspx.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAgwFYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T01:29:23.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 89,
-              "Title": "AdminPublicidad.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminPublicidad.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminPublicidad.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminPublicidad.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\AdminPublicidad.aspx.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwBgAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T01:27:21.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 92,
-              "Title": "BannerPublicidad.ascx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Controles\\BannerPublicidad.ascx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Controles\\BannerPublicidad.ascx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Controles\\BannerPublicidad.ascx.cs",
-              "RelativeToolTip": "SkillMirror\\Controles\\BannerPublicidad.ascx.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwCAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T00:40:45.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 93,
-              "Title": "BannerPublicidad.ascx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Controles\\BannerPublicidad.ascx",
-              "RelativeDocumentMoniker": "SkillMirror\\Controles\\BannerPublicidad.ascx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Controles\\BannerPublicidad.ascx",
-              "RelativeToolTip": "SkillMirror\\Controles\\BannerPublicidad.ascx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2025-10-06T00:40:30.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 90,
-              "Title": "BLLPublicidad.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLPublicidad.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLPublicidad.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLPublicidad.cs",
-              "RelativeToolTip": "BLL\\BLLPublicidad.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T00:38:01.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 91,
-              "Title": "MPPPublicidad.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPPublicidad.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPPublicidad.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPPublicidad.cs",
-              "RelativeToolTip": "MPP\\MPPPublicidad.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T00:37:22.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 94,
-              "Title": "BEPublicidad.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEPublicidad.cs",
-              "RelativeDocumentMoniker": "BE\\BEPublicidad.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEPublicidad.cs",
-              "RelativeToolTip": "BE\\BEPublicidad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T00:36:48.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 95,
-              "Title": "FAQs.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\FAQs.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\FAQs.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\FAQs.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\FAQs.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T00:20:25.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 96,
-              "Title": "FAQs.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\FAQs.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\FAQs.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\FAQs.aspx",
-              "RelativeToolTip": "SkillMirror\\FAQs.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-06T00:20:03.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 97,
-              "Title": "EditarFAQ.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarFAQ.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarFAQ.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarFAQ.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\EditarFAQ.aspx.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAYwIYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T23:37:48.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 100,
-              "Title": "BEFAQ.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEFAQ.cs",
-              "RelativeDocumentMoniker": "BE\\BEFAQ.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEFAQ.cs",
-              "RelativeToolTip": "BE\\BEFAQ.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T23:11:26.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 98,
-              "Title": "BLLFAQ.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLFAQ.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLFAQ.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLFAQ.cs",
-              "RelativeToolTip": "BLL\\BLLFAQ.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T23:12:16.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 101,
-              "Title": "AdminFAQs.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminFAQs.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminFAQs.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminFAQs.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\AdminFAQs.aspx.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwDsAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T23:36:43.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 99,
-              "Title": "MPPFAQ.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPFAQ.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPFAQ.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPFAQ.cs",
-              "RelativeToolTip": "MPP\\MPPFAQ.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAgwHwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T23:11:51.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 109,
-              "Title": "ResultadosEncuesta.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResultadosEncuesta.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\ResultadosEncuesta.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResultadosEncuesta.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\ResultadosEncuesta.aspx.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAgwFMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T17:13:21.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 102,
-              "Title": "AdminIdiomas.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminIdiomas.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminIdiomas.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminIdiomas.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\AdminIdiomas.aspx.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAgwHEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T17:46:48.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 104,
-              "Title": "MPPIdioma.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPIdioma.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPIdioma.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPIdioma.cs",
-              "RelativeToolTip": "MPP\\MPPIdioma.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAxwKgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T22:15:12.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 103,
-              "Title": "BLLIdioma.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLIdioma.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLIdioma.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLIdioma.cs",
-              "RelativeToolTip": "BLL\\BLLIdioma.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAkwCMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T23:10:29.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 108,
-              "Title": "BERankingEstadisticas.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BERankingEstadisticas.cs",
-              "RelativeDocumentMoniker": "BE\\BERankingEstadisticas.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BERankingEstadisticas.cs",
-              "RelativeToolTip": "BE\\BERankingEstadisticas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T17:31:50.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 105,
-              "Title": "RankingResenas.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\RankingResenas.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\RankingResenas.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\RankingResenas.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\RankingResenas.aspx.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAgwF0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T17:35:25.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 110,
-              "Title": "BEResultadoEncuesta.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEResultadoEncuesta.cs",
-              "RelativeDocumentMoniker": "BE\\BEResultadoEncuesta.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEResultadoEncuesta.cs",
-              "RelativeToolTip": "BE\\BEResultadoEncuesta.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T16:56:18.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 107,
-              "Title": "MPPResena.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPResena.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPResena.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPResena.cs",
-              "RelativeToolTip": "MPP\\MPPResena.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAYwE8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T20:30:57.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 106,
-              "Title": "BLLResena.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLResena.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLResena.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLResena.cs",
-              "RelativeToolTip": "BLL\\BLLResena.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T20:31:36.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 112,
-              "Title": "ResponderEncuesta.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResponderEncuesta.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\ResponderEncuesta.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResponderEncuesta.aspx",
-              "RelativeToolTip": "SkillMirror\\ResponderEncuesta.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-05T15:45:25.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 113,
-              "Title": "EditarEncuesta.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarEncuesta.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarEncuesta.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarEncuesta.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\EditarEncuesta.aspx.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwF8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T15:29:59.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 111,
-              "Title": "ResponderEncuesta.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResponderEncuesta.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\ResponderEncuesta.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResponderEncuesta.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\ResponderEncuesta.aspx.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAgwIgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T15:45:47.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 129,
-              "Title": "RecuperarClave.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\RecuperarClave.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\RecuperarClave.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\RecuperarClave.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\RecuperarClave.aspx.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAmwGUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T11:38:18.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 144,
-              "Title": "AdminRoles.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminRoles.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminRoles.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminRoles.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\AdminRoles.aspx.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T00:06:46.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 135,
-              "Title": "EditarUsuario.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarUsuario.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarUsuario.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarUsuario.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\EditarUsuario.aspx.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwDEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T02:02:35.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 116,
-              "Title": "NovedadesService.asmx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\NovedadesService.asmx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\NovedadesService.asmx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\NovedadesService.asmx.cs",
-              "RelativeToolTip": "SkillMirror\\NovedadesService.asmx.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T00:42:43.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 114,
-              "Title": "Novedades.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Novedades.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Novedades.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Novedades.aspx",
-              "RelativeToolTip": "SkillMirror\\Novedades.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-29T00:43:50.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 115,
-              "Title": "Novedades.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Novedades.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Novedades.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Novedades.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Novedades.aspx.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T00:44:16.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 117,
-              "Title": "EditarNovedad.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarNovedad.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarNovedad.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarNovedad.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\EditarNovedad.aspx.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAUwEwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T00:41:40.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 118,
-              "Title": "AdminNovedades.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminNovedades.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminNovedades.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminNovedades.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\AdminNovedades.aspx.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAmwFgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T00:40:33.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 119,
-              "Title": "BLLNovedad.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLNovedad.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLNovedad.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLNovedad.cs",
-              "RelativeToolTip": "BLL\\BLLNovedad.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAqwE4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:02:21.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 120,
-              "Title": "MPPNovedad.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPNovedad.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPNovedad.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPNovedad.cs",
-              "RelativeToolTip": "MPP\\MPPNovedad.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAMwD8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:01:37.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 121,
-              "Title": "BENovedad.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BENovedad.cs",
-              "RelativeDocumentMoniker": "BE\\BENovedad.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BENovedad.cs",
-              "RelativeToolTip": "BE\\BENovedad.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA9wBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T15:59:19.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 122,
-              "Title": "BEIdioma.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEIdioma.cs",
-              "RelativeDocumentMoniker": "BE\\BEIdioma.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEIdioma.cs",
-              "RelativeToolTip": "BE\\BEIdioma.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T20:02:14.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 124,
-              "Title": "BLLEmail.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLEmail.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLEmail.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLEmail.cs",
-              "RelativeToolTip": "BLL\\BLLEmail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T22:53:06.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 123,
-              "Title": "MPPLogin.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPLogin.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPLogin.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPLogin.cs",
-              "RelativeToolTip": "MPP\\MPPLogin.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T13:25:40.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 125,
-              "Title": "ResenasService.asmx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResenasService.asmx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\ResenasService.asmx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ResenasService.asmx.cs",
-              "RelativeToolTip": "SkillMirror\\ResenasService.asmx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T21:04:11.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 126,
-              "Title": "Resenas.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Resenas.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Resenas.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Resenas.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Resenas.aspx.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAMwFQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T20:32:36.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 130,
-              "Title": "QuienesSomos.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\QuienesSomos.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\QuienesSomos.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\QuienesSomos.aspx",
-              "RelativeToolTip": "SkillMirror\\QuienesSomos.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-31T15:18:47.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 133,
-              "Title": "PoliticaDePrivacidad.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\PoliticaDePrivacidad.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\PoliticaDePrivacidad.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\PoliticaDePrivacidad.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\PoliticaDePrivacidad.aspx.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwD8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:15:58.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 131,
-              "Title": "QuienesSomos.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\QuienesSomos.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\QuienesSomos.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\QuienesSomos.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\QuienesSomos.aspx.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA6wCUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:16:07.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 132,
-              "Title": "PoliticaDePrivacidad.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\PoliticaDePrivacidad.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\PoliticaDePrivacidad.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\PoliticaDePrivacidad.aspx",
-              "RelativeToolTip": "SkillMirror\\PoliticaDePrivacidad.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-30T20:48:43.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 137,
-              "Title": "EditarEmpresa.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarEmpresa.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\EditarEmpresa.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\EditarEmpresa.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\EditarEmpresa.aspx.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwGAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T19:29:05.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 138,
-              "Title": "Contactenos.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contactenos.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Contactenos.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contactenos.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Contactenos.aspx.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAmwFsAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:15:15.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 139,
-              "Title": "Contactenos.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contactenos.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\Contactenos.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contactenos.aspx",
-              "RelativeToolTip": "SkillMirror\\Contactenos.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-31T15:18:59.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 136,
-              "Title": "BasePage.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\BasePage.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\BasePage.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\BasePage.cs",
-              "RelativeToolTip": "SkillMirror\\BasePage.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwDUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:11:23.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 140,
-              "Title": "Contact.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contact.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Contact.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Contact.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Contact.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:14:39.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 141,
-              "Title": "Consola.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Consola.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Consola.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Consola.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Consola.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwCoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:14:29.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 142,
-              "Title": "Bitacora.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Bitacora.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Bitacora.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Bitacora.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\Bitacora.aspx.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T01:18:29.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 143,
-              "Title": "AdminUsuarios.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminUsuarios.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminUsuarios.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminUsuarios.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\AdminUsuarios.aspx.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAswEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T01:59:07.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 146,
-              "Title": "AdminEmpresas.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminEmpresas.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminEmpresas.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminEmpresas.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\AdminEmpresas.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T19:28:10.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 145,
-              "Title": "AdminResenas.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminResenas.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\AdminResenas.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\AdminResenas.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\AdminResenas.aspx.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAiwHAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T20:47:37.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 147,
-              "Title": "Catalogo.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Catalogo.aspx.designer.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Catalogo.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Catalogo.aspx.designer.cs",
-              "RelativeToolTip": "SkillMirror\\Catalogo.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:31:25.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 148,
-              "Title": "ActivarCuenta.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ActivarCuenta.aspx.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\ActivarCuenta.aspx.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ActivarCuenta.aspx.cs",
-              "RelativeToolTip": "SkillMirror\\ActivarCuenta.aspx.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAQwEYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T18:49:15.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 149,
-              "Title": "Traductor.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\Traductor.cs",
-              "RelativeDocumentMoniker": "BLL\\Traductor.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\Traductor.cs",
-              "RelativeToolTip": "BLL\\Traductor.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T23:39:05.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 150,
-              "Title": "BEResena.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEResena.cs",
-              "RelativeDocumentMoniker": "BE\\BEResena.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\BEResena.cs",
-              "RelativeToolTip": "BE\\BEResena.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T20:30:27.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 152,
-              "Title": "Site.Master.designer.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Site.Master.designer.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\Site.Master.designer.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\Site.Master.designer.cs",
-              "RelativeToolTip": "SkillMirror\\Site.Master.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwKEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T00:02:06.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 151,
-              "Title": "ActivarCuenta.aspx",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ActivarCuenta.aspx",
-              "RelativeDocumentMoniker": "SkillMirror\\ActivarCuenta.aspx",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\ActivarCuenta.aspx",
-              "RelativeToolTip": "SkillMirror\\ActivarCuenta.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-31T18:48:42.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 153,
-              "Title": "Itraducible.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\Itraducible.cs",
-              "RelativeDocumentMoniker": "BE\\Itraducible.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\Itraducible.cs",
-              "RelativeToolTip": "BE\\Itraducible.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T23:39:35.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 157,
-              "Title": "EntradaBitacora.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\EntradaBitacora.cs",
-              "RelativeDocumentMoniker": "BE\\EntradaBitacora.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BE\\EntradaBitacora.cs",
-              "RelativeToolTip": "BE\\EntradaBitacora.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T01:16:12.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 154,
-              "Title": "MPPBitacora.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPBitacora.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPBitacora.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\MPP\\MPPBitacora.cs",
-              "RelativeToolTip": "MPP\\MPPBitacora.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAuwDQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T01:17:12.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 155,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "SkillMirror\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\SkillMirror\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "SkillMirror\\App_Start\\RouteConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T17:49:13.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 156,
-              "Title": "BLLBitacora.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLBitacora.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLBitacora.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLBitacora.cs",
-              "RelativeToolTip": "BLL\\BLLBitacora.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T17:07:53.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 158,
-              "Title": "BLLogin.cs",
-              "DocumentMoniker": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLogin.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLogin.cs",
-              "ToolTip": "C:\\Users\\dgata\\source\\repos\\SkillMirror\\BLL\\BLLogin.cs",
-              "RelativeToolTip": "BLL\\BLLogin.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T15:33:00.363Z"
+              "WhenOpened": "2025-10-22T01:06:29.253Z"
             }
           ]
         }

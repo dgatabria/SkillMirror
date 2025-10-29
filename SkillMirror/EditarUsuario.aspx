@@ -31,6 +31,11 @@
                 <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" TextMode="Email"></asp:TextBox>
             </div>
             
+            <div class="col-md-4 mb-3"> <%-- NUEVO CAMPO DNI --%>
+                    <asp:Label ID="lblDNI" runat="server" CssClass="form-label" AssociatedControlID="txtDNI"></asp:Label>
+                    <asp:TextBox ID="txtDNI" runat="server" CssClass="form-control" TextMode="Number"></asp:TextBox> <%-- TextMode Number opcional --%>
+                    <asp:RequiredFieldValidator ID="rfvDNI" runat="server" ControlToValidate="txtDNI" CssClass="text-danger" Display="Dynamic" ErrorMessage="" ValidationGroup="EdicionUsuario" />
+                </div>
             <%-- SECCIÓN DE ROLES --%>
             <div class="mb-3">
                 <asp:Label ID="lblRoles" runat="server" CssClass="form-label">Roles Asignados</asp:Label>
@@ -38,6 +43,7 @@
                     <asp:CheckBoxList ID="cblRoles" runat="server" CssClass="form-check-list"></asp:CheckBoxList>
                 </div>
             </div>
+
 
             <div class="form-check mb-3">
                 <asp:CheckBox ID="chkBloqueado" runat="server" CssClass="form-check-input" />

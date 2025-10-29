@@ -2,6 +2,8 @@
 using MPP;
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using System.Web;
 
 namespace BLL
 {
@@ -14,6 +16,26 @@ namespace BLL
     {
         private readonly MPPFacturacion _mppFacturacion;
 
+
+        private string ValidarYSanitizarString(string input, string nombreCampo, int maxLength, bool esRequerido)
+        {
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                if (esRequerido)
+                    throw new ArgumentException($"El campo '{nombreCampo}' es requerido.");
+                else
+                    return null; // O string.Empty según prefieras manejar opcionales
+            }
+
+            // Sanitización Anti-XSS
+            string sanitizedInput = HttpUtility.HtmlEncode(input.Trim());
+
+            // Validación de Longitud
+            if (sanitizedInput.Length > maxLength)
+                throw new ArgumentException($"El campo '{nombreCampo}' excede la longitud máxima de {maxLength} caracteres.");
+
+            return sanitizedInput;
+        }
         public BLLFacturacion()
         {
             _mppFacturacion = new MPPFacturacion();
@@ -27,7 +49,7 @@ namespace BLL
         /// <param name="valor">El valor de la nota de crédito.</param>
         /// <param name="diasVigencia">Los días de vigencia de la nota de crédito.</param>
         /// <returns>El código único de la nota de crédito generada.</returns>
-        public string CrearNotaCredito(int idEmpresa, int idFacturaOrigen, double valor, int diasVigencia)
+        public string CrearNotaCredito(int idEmpresa, int idFacturaOrigen, decimal valor, int diasVigencia)
         {
             // Aplicación de reglas de negocio
             if (valor <= 0)
@@ -83,6 +105,46 @@ namespace BLL
         }
 
         /// <summary>
+        /// Valida un número de tarjeta de crédito usando el Algoritmo de Luhn.
+        /// </summary>
+        /// <param name="numeroTarjeta">El número de tarjeta, sin espacios ni guiones.</param>
+        /// <returns>True si el número es válido según Luhn, false si no.</returns>
+        public static bool EsValidoSegunLuhn(string numeroTarjeta)
+        {
+            if (string.IsNullOrEmpty(numeroTarjeta))
+                return false;
+
+            int sum = 0;
+            bool esSegundoDigito = false;
+
+            // Recorremos el número de derecha a izquierda
+            for (int i = numeroTarjeta.Length - 1; i >= 0; i--)
+            {
+                // '0' tiene el valor ASCII 48. 
+                // Restar '0' a un char numérico lo convierte en su valor int.
+                int d = numeroTarjeta[i] - '0';
+
+                if (d < 0 || d > 9)
+                    return false; // No es un dígito
+
+                if (esSegundoDigito)
+                {
+                    d = d * 2;
+                    if (d > 9)
+                    {
+                        d = d - 9; // Equivale a sumar los dígitos (ej: 16 -> 1+6=7)
+                    }
+                }
+
+                sum += d;
+                esSegundoDigito = !esSegundoDigito;
+            }
+
+            // El número es válido si la suma total es un múltiplo de 10.
+            return (sum % 10 == 0);
+        }
+
+        /// <summary>
         /// Orquesta el procesamiento de un pago, validando la información antes de persistirla.
         /// </summary>
         public int ProcesarPagoYFacturar(BEPago pago)
@@ -91,7 +153,21 @@ namespace BLL
             // Por ejemplo, verificar que si no se usa una nota de crédito, la suma de los
             // montos de los otros medios de pago cubra el total del plan.
             double totalPagadoConMediosDirectos = 0;
-            if (pago.Tarjeta != null) totalPagadoConMediosDirectos += pago.Tarjeta.MontoAbonado;
+            if (pago.Tarjeta != null)
+            {
+                if (!Regex.IsMatch(pago.Tarjeta.Expiracion ?? "", @"^(0[1-9]|1[0-2])\/?([0-9]{2})$"))
+                    throw new ArgumentException("El formato de la fecha de expiración de la tarjeta no es válido (MM/AA).");
+
+                string numeroLimpio = (pago.Tarjeta.Numero ?? "").Replace(" ", "").Replace("-", "");
+                if (!Regex.IsMatch(numeroLimpio, @"^[0-9]{13,19}$"))
+                    throw new ArgumentException("El numero de la tarjeta de crédito no es válido.");
+
+                if (!EsValidoSegunLuhn(numeroLimpio.ToString()))
+                {
+                    throw new ArgumentException("El numero de la tarjeta de crédito no es válido.");
+                }
+                totalPagadoConMediosDirectos += pago.Tarjeta.MontoAbonado;
+            }
             if (pago.Transferencia != null) totalPagadoConMediosDirectos += pago.Transferencia.MontoAbonado;
 
             // La lógica de "vuelto" de la nota de crédito ya la maneja el Stored Procedure,

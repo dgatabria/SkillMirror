@@ -69,6 +69,15 @@ namespace SkillMirror
         protected global::System.Web.UI.WebControls.Repeater RepeaterIdiomas;
 
         /// <summary>
+        /// lblEnhancedFocus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblEnhancedFocus;
+
+        /// <summary>
         /// lblUserName control.
         /// </summary>
         /// <remarks>

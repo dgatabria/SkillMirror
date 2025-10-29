@@ -13,6 +13,7 @@ namespace DAL
 {
     public class Acceso
     {
+        // ... código existente de tu constructor y otros métodos ...
         private SqlConnection oCnn;
         public Acceso()
         {
@@ -47,14 +48,44 @@ namespace DAL
                 }
                 oCnn.Close();
                 oCnn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=SKILLMIRROR;Integrated Security=True");
-
             }
-
-
         }
 
+        // ... otros métodos existentes ...
 
+        /// <summary>
+        /// NUEVO MÉTODO: Ejecuta un SP con un único Table-Valued Parameter y devuelve un DataTable.
+        /// Ideal para operaciones de guardado que retornan el ID del nuevo registro.
+        /// </summary>
+        public DataTable EscribirSPConTVPYDevolverDataTable(string SPName, Hashtable Params, DataTable tvpData, string tvpTypeName, string tvpParamName)
+        {
+            oCnn.Open();
+            DataTable dtResult = new DataTable();
+            SqlCommand comm = new SqlCommand(SPName, oCnn);
+            comm.CommandType = CommandType.StoredProcedure;
 
+            if (Params != null)
+            {
+                foreach (string key in Params.Keys)
+                {
+                    comm.Parameters.AddWithValue(key, Params[key]);
+                }
+            }
+
+            // Configurar el parámetro de tipo tabla (TVP)
+            SqlParameter tvpParam = comm.Parameters.AddWithValue(tvpParamName, tvpData);
+            tvpParam.SqlDbType = SqlDbType.Structured;
+            tvpParam.TypeName = tvpTypeName;
+
+            // Usamos un SqlDataAdapter para ejecutar el comando y llenar nuestro DataTable de resultado.
+            SqlDataAdapter da = new SqlDataAdapter(comm);
+            da.Fill(dtResult);
+
+            oCnn.Close();
+            return dtResult; // Devuelve el DataTable con los resultados (ej. el ID)
+        }
+
+        // ... resto de tus métodos en Acceso.cs ...
         //Creo el objeto command
         SqlCommand cmd;
 
@@ -97,7 +128,7 @@ namespace DAL
             tvpParam.TypeName = "dbo.TraduccionTabla"; // El nombre del TIPO que creamos en SQL
 
             int resultado = comm.ExecuteNonQuery();
-            oCnn.Close() ;
+            oCnn.Close();
 
             return resultado >= 0; // ExecuteNonQuery devuelve -1 si no hay SET NOCOUNT ON
         }

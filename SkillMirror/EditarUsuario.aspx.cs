@@ -42,6 +42,7 @@ namespace SkillMirror
             lblNombre.Text = _traductor.Traducir("EditarUsuario_Label_Nombre");
             lblApellido.Text = _traductor.Traducir("EditarUsuario_Label_Apellido");
             lblEmail.Text = _traductor.Traducir("EditarUsuario_Label_Email");
+            lblDNI.Text = _traductor.Traducir("EditarUsuario_Label_DNI");
             lblRoles.Text = _traductor.Traducir("EditarUsuario_Label_Roles");
             lblBloqueado.Text = _traductor.Traducir("EditarUsuario_Label_Bloqueado");
             btnGuardar.Text = _traductor.Traducir("EditarUsuario_Boton_Guardar");
@@ -99,6 +100,7 @@ namespace SkillMirror
             usuario.Apellido = txtApellido.Text;
             usuario.Email = txtEmail.Text;
             usuario.Bloqueado = chkBloqueado.Checked;
+            usuario.DNI = txtDNI.Text.Trim();
 
             bllUsuario.Guardar(usuario);
 

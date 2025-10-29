@@ -33,7 +33,7 @@
                                 <%-- Botón de suscribir (solo visible en modo contratación) --%>
                                 <asp:Panel ID="pnlBotonContratar" runat="server" Visible="false" CssClass="mt-3">
                                     <asp:Button ID="btnSuscribir" runat="server" CssClass="btn btn-lg btn-success w-100" 
-                                        CommandName="Suscribir" CommandArgument='<%# Eval("Codigo") %>' />
+                                        CommandName="Suscribir" CommandArgument='<%# Eval("ID") %>' />
                                 </asp:Panel>
                             </div>
                         </div>
@@ -42,7 +42,7 @@
             </asp:Repeater>
         </div>
 
-        <%-- Tabla Comparativa (Reintegrada) --%>
+        <%-- Tabla Comparativa (Ahora 100% dinámica) --%>
         <div id="comparison-section" class="mt-5">
             <h2 id="comparisonTitle" runat="server" class="text-center mb-4">Tabla Comparativa</h2>
             <div class="table-responsive">
@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <%-- Script de JavaScript (Reintegrado y funcional) --%>
+    <%-- Script de JavaScript (Sin cambios, pero ahora recibe datos dinámicos) --%>
     <script type="text/javascript">
         const planData = <%= _jsonPlanData %>;
         const features = <%= _jsonFeatures %>;
@@ -92,7 +92,8 @@
                     bodyHTML += `<tr><td class="text-start fw-bold">${feature.label}</td>`;
                     selectedPlans.forEach(planId => {
                         if (planData[planId]) {
-                            bodyHTML += `<td>${planData[planId][feature.key]}</td>`;
+                            // Se busca la feature por su clave. Si no existe, se muestra un guión.
+                            bodyHTML += `<td>${planData[planId][feature.key] || '-'}</td>`;
                         }
                     });
                     bodyHTML += '</tr>';
@@ -106,6 +107,7 @@
         });
 
         // Asegurarse de que la tabla se dibuje después de que la página cargue completamente
-        document.addEventListener('load', drawComparisonTable);
+        // Usamos DOMContentLoaded que es más fiable que 'load'
+        document.addEventListener('DOMContentLoaded', drawComparisonTable);
     </script>
 </asp:Content>

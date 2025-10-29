@@ -54,11 +54,13 @@
     <Compile Include="BLLEncuesta.cs" />
     <Compile Include="BLLFacturacion.cs" />
     <Compile Include="BLLFAQ.cs" />
+    <Compile Include="BLLFeatures.cs" />
     <Compile Include="BLLIdioma.cs" />
     <Compile Include="BLLMensajeria.cs" />
     <Compile Include="BLLNivelServicio.cs" />
     <Compile Include="BLLNovedad.cs" />
     <Compile Include="BLLogin.cs" />
+    <Compile Include="BLLPlanes.cs" />
     <Compile Include="BLLPublicidad.cs" />
     <Compile Include="BLLRBAC.cs" />
     <Compile Include="BLLReCaptcha.cs" />
