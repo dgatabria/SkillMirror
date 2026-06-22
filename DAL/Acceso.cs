@@ -301,6 +301,39 @@ namespace DAL
             }
             return ds; // Devolvemos el DataSet completo
         }
+
+        /// <summary>
+        /// Ejecuta una consulta SQL de texto con parámetros seguros (previene SQL Injection).
+        /// Los parámetros se pasan en un Hashtable donde la clave es el nombre del parámetro
+        /// (ej. "@Path") y el valor es el dato.
+        /// </summary>
+        public int EjecutarConsultaParametrizada(string consultaSQL, Hashtable parametros)
+        {
+            oCnn.Open();
+            SqlCommand comm = new SqlCommand(consultaSQL, oCnn);
+            comm.CommandType = CommandType.Text;
+
+            try
+            {
+                if (parametros != null)
+                {
+                    foreach (string key in parametros.Keys)
+                    {
+                        comm.Parameters.AddWithValue(key, parametros[key] ?? DBNull.Value);
+                    }
+                }
+                return comm.ExecuteNonQuery();
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                oCnn.Close();
+            }
+        }
+
         public bool EscribirConsulta(string Consulta_SQL)
         {
 

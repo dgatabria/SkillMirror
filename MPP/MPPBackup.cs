@@ -25,10 +25,8 @@ namespace MPP
             var ht = new Hashtable();
             ht.Add("@Path", backup.Path);
 
-            // Usamos EscribirSP, aunque es un comando T-SQL directo, porque Acceso no tiene otro método.
-            // Lo ideal sería tener un método "EjecutarComando" en la clase Acceso.
-            // Para este Proof of Concept, lo ejecutamos así:
-            oAcceso.EscribirConsulta(backupCommand.Replace("@Path", $"'{backup.Path}'"));
+            // Usamos el método parametrizado para prevenir SQL Injection.
+            oAcceso.EjecutarConsultaParametrizada(backupCommand, ht);
         }
 
         public void RegistrarBackup(BEBackup backup)
@@ -77,10 +75,11 @@ namespace MPP
                         cmdSingleUser.ExecuteNonQuery();
                     }
 
-                    // 2. Ejecutar el comando de restauración.
-                    string sqlRestore = $"RESTORE DATABASE [SkillMirror] FROM DISK = '{path}' WITH REPLACE";
+                    // 2. Ejecutar el comando de restauración con parámetros para prevenir SQL Injection.
+                    string sqlRestore = "RESTORE DATABASE [SkillMirror] FROM DISK = @Path WITH REPLACE";
                     using (var cmdRestore = new SqlCommand(sqlRestore, masterCnn))
                     {
+                        cmdRestore.Parameters.AddWithValue("@Path", path);
                         cmdRestore.ExecuteNonQuery();
                     }
                 }
