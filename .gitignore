@@ -1,0 +1,53 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogFile/
+
+# NuGet
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.user.options
+
+# ASP.NET
+*.cache.js
+*.cache.css
+*.cache.png
+*.cache.jpg
+*.cache.htm
+*.cache.txt
+Cache/
+BuildLog/
+
+# Credentials - DO NOT COMMIT (but we need the template in the repo, so only ignore copies)
+# Note: SkillMirror/AppSettings.secure.config is kept as a template
+# In production, replace the placeholder password and add to .gitignore on the server
+
+# Backup files
+*.bak
+*.sql
+*.zip
+
+# IDE
+*.swp
+*.swo
+*~
+.idea/
+*.scc/
+
+# OS
+.DS_Store
+Thumbs.db
